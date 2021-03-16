@@ -18,11 +18,15 @@ namespace Aulas_Csharp
             // Console.Write("O aluno "+nomeAluno+" tem a média: "+m);
 
             //2]
-            Console.Write("Digite o valor do seu Salário: ");
+            // Console.Write("Digite o valor do seu Salário: ");
+            // var salario = double.Parse(Console.ReadLine());
+            // var p = salario * 0.25;
+            // var nsalario = salario - p;
+            // Console.Write("seu salário com 25% de desconto é "+nsalario);
+            Console.Write("Digite seu Salário: ");
             var salario = double.Parse(Console.ReadLine());
             var p = salario * 0.25;
-            var nsalario = salario - p;
-            Console.Write("seu salário com 25% de desconto é "+nsalario);
+            var nsalario = salario;
         }
     }
 }
