@@ -5,23 +5,28 @@ namespace aula02
     class Program
     {
         static void Main(string[] args)
-        {   
-            /*
-            Console.Write("Digite o valor do seu Salário: ");
-            var salario = double.Parse(Console.ReadLine());
-            var p = salario * 0.25;
-            var nsalario = salario + p;
-            Console.Write("seu salário com 25% de aumento é "+nsalario);
-            */
-            //ou
-            
-            double salario, aumento, porcentagem;
-            Console.Write("Qual é o seu salario?");
-            salario = double.Parse(Console.ReadLine());
-            porcentagem = 25.0 / 100;
-            aumento = salario + (porcentagem*salario);
-            Console.WriteLine("O seu salário com aumento de 25% foi de "+aumento);
-            
+        {  /*
+           decimal salarioBase, salarioReceber, totalImposto, totalGratificacao;
+           Console.WriteLine("Digite seu salário: ");
+           salarioBase = decimal.Parse(Console.ReadLine());
+           totalImposto = salarioBase * 0.02;
+           salarioReceber = salarioBase - totalImposto;
+           Console.WriteLine("Salário a receber é: "+ salarioReceber);
+           */
+           //ou
+           decimal salarioBase, salarioReceber, totalImposto, totalGratificacao;
+           const int imposto = 7;
+           const int gratificacao = 5;
+
+           Console.Write("Digite o salário base: ");
+           salarioBase = decimal.Parse(Console.ReadLine());
+           totalGratificacao = (salarioBase * gratificacao)/100;
+           totalImposto = (salarioBase * imposto)/100;
+           salarioReceber = salarioBase + totalGratificacao - totalImposto;
+
+           Console.WriteLine("O valor da gratificação é: "+totalGratificacao);
+           Console.WriteLine("O valor d o imposto é: "+totalImposto);
+           Console.WriteLine("O salário a receber é: "+salarioReceber);
         }
     }
 }
