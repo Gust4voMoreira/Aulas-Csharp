@@ -6,7 +6,7 @@ namespace aula03
     {
         static void Main(string[] args)
         {
-           //erro/////////////////
+            //erro/////////////////
             // Console.Write("Digite seu Salário: ");
             // var salario = double.Parse(Console.ReadLine());
             // Console.Write("Jurus: ");
