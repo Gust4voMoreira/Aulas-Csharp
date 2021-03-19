@@ -6,18 +6,31 @@ namespace aula03
     {
         static void Main(string[] args)
         {
-            //erro/////////////////
-            // Console.Write("Digite seu Salário: ");
-            // var salario = double.Parse(Console.ReadLine());
-            // Console.Write("Jurus: ");
-            // var jurus = double.Parse(Console.ReadLine());
-            // var j = jurus/100;
-            // var p = salario * j;
-            // var nsalario = p + salario;
-            // Console.WriteLine("salario: "+salario);
-            // Console.Write("Novo salario: "+nsalario);
+            Console.Write("Digite seu Salário: ");
+            var deposito = decimal.Parse(Console.ReadLine());
+            Console.Write("Jurus: ");
+            var jurus = decimal.Parse(Console.ReadLine());
 
-            
+            var rendimento = (deposito * jurus)/100;
+            var valorFinal = deposito + rendimento;
+
+            Console.WriteLine("Redimento: "+rendimento);
+            Console.Write("Novo salario: "+valorFinal);
+            //ou
+            /*
+            decimal deposito, taxaDeJuros, rendimento, valorFinal;
+
+            Console.Write("Digite o valor do déposito: ");
+            deposito = decimal.Parse(Console.ReadLine());
+            Console.Write("Digite o valor da taxa de juros: ");
+            taxaDeJuros = decimal.Parse(Console.ReadLine());
+
+            rendimento = (deposito * taxaDeJuros)/100;
+            valorFinal = deposito + rendimento;
+
+            Console.WriteLine("O valor do rendimento é "+rendimento);
+            Console.WriteLine("O valor final com rendimento é: "+valorFinal);
+            */
         }
     }
 }
