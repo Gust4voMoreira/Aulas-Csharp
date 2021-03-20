@@ -62,7 +62,7 @@ namespace aulaa
                 }
             }
             */
-            //ou
+            //maior e menor
             if (x == y && y == z)
             {
                 Console.WriteLine("O x e y e z são iguais");
@@ -73,11 +73,24 @@ namespace aulaa
             }
             else if (y > x && y > z)
             {
-                Console.WriteLine($"O maior é {y}");
+                Console.WriteLine($"O maior é y: {y}");
             }
             else
             {
                 Console.WriteLine($"O maior é z: {z}");
+            }
+            
+            if (x < y && x < z)
+            {
+                Console.WriteLine($"O menor é x: {x}");
+            }
+            else if (y < x && y < z)
+            {
+                Console.WriteLine($"O menor é y: {y}");
+            }
+            else
+            {
+                Console.WriteLine($"O menor é z: {z}");
             }
 
             //>se x > y
