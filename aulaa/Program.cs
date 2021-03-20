@@ -6,6 +6,7 @@ namespace aulaa
     {
         static void Main(string[] args)
         {
+            //Data ?
             /*
             int x, y;
             Console.Write("Digite o primeiro número: ");
@@ -36,19 +37,47 @@ namespace aulaa
             int y = int.Parse(Console.ReadLine());
             Console.WriteLine("Introduza y: ");
             int z = int.Parse(Console.ReadLine());
-           
-            if(x > y){
-                if(x > z){
-                    Console.WriteLine("O maior é x: "+x);
-                } else {
-                    Console.WriteLine("O maior é z: "+z);
+
+            /*
+            if (x > y)
+            {
+                if (x > z)
+                {
+                    Console.WriteLine("O maior é x: " + x);
                 }
-            } else {
-                if(y > z){
-                    Console.WriteLine("O maior é y: "+y);
-                } else {
-                    Console.WriteLine("O maior é z: "+z);
+                else
+                {
+                    Console.WriteLine("O maior é z: " + z);
                 }
+            }
+            else
+            {
+                if (y > z)
+                {
+                    Console.WriteLine("O maior é y: " + y);
+                }
+                else
+                {
+                    Console.WriteLine("O maior é z: " + z);
+                }
+            }
+            */
+            //ou
+            if (x == y && y == z)
+            {
+                Console.WriteLine("O x e y e z são iguais");
+            }
+            else if (x > y && x > z)
+            {
+                Console.WriteLine($"O maior é x: {x}");
+            }
+            else if (y > x && y > z)
+            {
+                Console.WriteLine($"O maior é {y}");
+            }
+            else
+            {
+                Console.WriteLine($"O maior é z: {z}");
             }
 
             //>se x > y
