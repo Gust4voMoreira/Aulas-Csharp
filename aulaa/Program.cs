@@ -92,14 +92,6 @@ namespace aulaa
             {
                 Console.WriteLine($"O menor é z: {z}");
             }
-
-            //>se x > y
-            //se x > z = x
-            //se não z
-            //
-            //>se não
-            //se y > z = y
-            //se não z
         }
     }
 }
