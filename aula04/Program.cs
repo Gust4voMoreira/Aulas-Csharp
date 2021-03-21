@@ -6,6 +6,7 @@ namespace aula04
     {
         static void Main(string[] args)
         {
+            //data: 16/03/2021
             Console.Write("Digite o valor da base em (cm): ");
             var a = double.Parse(Console.ReadLine());
             Console.Write("Digite o valor da altura em (cm): ");

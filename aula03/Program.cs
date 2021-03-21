@@ -6,6 +6,7 @@ namespace aula03
     {
         static void Main(string[] args)
         {
+            //data: 16/03/2021
             Console.Write("Digite seu Salário: ");
             var deposito = decimal.Parse(Console.ReadLine());
             Console.Write("Jurus: ");

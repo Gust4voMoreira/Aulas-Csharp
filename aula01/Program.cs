@@ -6,6 +6,7 @@ namespace aula01
     {
         static void Main(string[] args)
         {
+            //data: 09/03/2021
             /*1]
             Console.Write("nome do aluno: ");
             string nomeAluno = Console.ReadLine();
@@ -18,7 +19,10 @@ namespace aula01
             */
 
             //2]
-             /*
+            //Faça um algoritmo que leia o salário de um funcionário, calcule e mostre o novo salário,
+            //sabendo que este sofreu um aumento de 25% .
+
+            /*
             Console.Write("Digite o valor do seu Salário: ");
             var salario = double.Parse(Console.ReadLine());
             var p = salario * 0.25;
