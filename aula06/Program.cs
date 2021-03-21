@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace aulaa
+namespace aula06
 {
     class Program
     {
