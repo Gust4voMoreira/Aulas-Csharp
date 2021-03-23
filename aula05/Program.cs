@@ -51,20 +51,21 @@ namespace aula05
             quanto restará do salário de João.
             */
 
-            decimal salario, rSalario, energia, agua, mEnergia, mAgua;
+            double salario, rSalario, energia, agua, multaE, multaA;
+            double percentual = 2.0 / 100.0;
 
             Console.WriteLine("Digite seu Salário: ");
-            salario = decimal.Parse(Console.ReadLine());
+            salario = double.Parse(Console.ReadLine());
             Console.WriteLine("Digite o valor da conta de Energia:");
-            energia = decimal.Parse(Console.ReadLine());
-            //Console.WriteLine("Digite o valor da conta de Água:");
-            //agua = decimal.Parse(Console.ReadLine());
-            mAgua = 2/100;
-            mEnergia = energia+(energia * mAgua);
-            rSalario = salario - mEnergia;
-            Console.WriteLine(rSalario.ToString("C2"));
-            Console.Write($"O salário a receber é: R${rSalario} reais.");
-            
+            energia = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o valor da conta de Água:");
+            agua = double.Parse(Console.ReadLine());
+
+            multaE = energia+(energia * percentual);
+            multaA = agua+(agua * percentual);
+            rSalario = salario - (multaE+multaA);
+
+            Console.WriteLine("O salário a receber é: "+rSalario.ToString("C2")+" reais");
         }
     }
 }
