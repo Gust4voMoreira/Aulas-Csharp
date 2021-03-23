@@ -62,7 +62,9 @@ namespace aula05
             mAgua = 2/100;
             mEnergia = energia+(energia * mAgua);
             rSalario = salario - mEnergia;
+            Console.WriteLine(rSalario.ToString("C2"));
             Console.Write($"O salário a receber é: R${rSalario} reais.");
+            
         }
     }
 }
