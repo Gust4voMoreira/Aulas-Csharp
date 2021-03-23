@@ -71,7 +71,7 @@ namespace aula06
             {
                 Console.WriteLine($"O maior é x: {x}");
             }
-            else if (y > x && y > z)
+            else if (y > z)
             {
                 Console.WriteLine($"O maior é y: {y}");
             }
@@ -84,7 +84,7 @@ namespace aula06
             {
                 Console.WriteLine($"O menor é x: {x}");
             }
-            else if (y < x && y < z)
+            else if (y < z)
             {
                 Console.WriteLine($"O menor é y: {y}");
             }
