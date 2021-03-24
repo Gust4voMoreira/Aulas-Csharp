@@ -6,34 +6,39 @@ namespace aula02
     {
         static void Main(string[] args)
         {
-            //data: 09/03/2021 
-            /*
-            Faça um algoritmo que leia o salário base de um funcionário, calcule e mostre o salário
-            a receber, sabendo-se que esse funcionário tem gratificação de 5% sobre o salário base e paga
-            imposto de 7% sobre o salário base.
-            */
-            /*
-            decimal salarioBase, salarioReceber, totalImposto, totalGratificacao;
-            Console.WriteLine("Digite seu salário: ");
-            salarioBase = decimal.Parse(Console.ReadLine());
-            totalImposto = salarioBase * 0.02;
-            salarioReceber = salarioBase - totalImposto;
-            Console.WriteLine("Salário a receber é: "+ salarioReceber);
-            */
+            //data: 16/03/2021
+            //1]
+            /*Console.Write("Digite seu Salário: ");
+            var deposito = decimal.Parse(Console.ReadLine());
+            Console.Write("Jurus: ");
+            var jurus = decimal.Parse(Console.ReadLine());
+
+            var rendimento = (deposito * jurus)/100;
+            var valorFinal = deposito + rendimento;
+
+            Console.WriteLine("Redimento: "+rendimento);
+            Console.Write("Novo salario: "+valorFinal);
             //ou
-            decimal salarioBase, salarioReceber, totalImposto, totalGratificacao;
-            const int imposto = 7;
-            const int gratificacao = 5;
+            decimal deposito, taxaDeJuros, rendimento, valorFinal;
 
-            Console.Write("Digite o salário base: ");
-            salarioBase = decimal.Parse(Console.ReadLine());
-            totalGratificacao = (salarioBase * gratificacao) / 100;
-            totalImposto = (salarioBase * imposto) / 100;
-            salarioReceber = salarioBase + totalGratificacao - totalImposto;
+            Console.Write("Digite o valor do déposito: ");
+            deposito = decimal.Parse(Console.ReadLine());
+            Console.Write("Digite o valor da taxa de juros: ");
+            taxaDeJuros = decimal.Parse(Console.ReadLine());
 
-            Console.WriteLine("O valor da gratificação é: " + totalGratificacao);
-            Console.WriteLine("O valor d o imposto é: " + totalImposto);
-            Console.WriteLine("O salário a receber é: " + salarioReceber);
+            rendimento = (deposito * taxaDeJuros)/100;
+            valorFinal = deposito + rendimento;
+
+            Console.WriteLine("O valor do rendimento é "+rendimento);
+            Console.WriteLine("O valor final com rendimento é: "+valorFinal);
+            */
+            //2]
+            Console.Write("Digite o valor da base em (cm): ");
+            var a = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor da altura em (cm): ");
+            var b = double.Parse(Console.ReadLine());
+            var area = a * b / 2;
+            Console.Write("área é: "+area+"cm²");
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula05\\aula05.csproj",
-      "projectName": "aula05",
-      "projectPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula05\\aula05.csproj",
+      "projectUniqueName": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula07\\aula07.csproj",
+      "projectName": "aula07",
+      "projectPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula07\\aula07.csproj",
       "packagesPath": "C:\\Users\\dados\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula05\\obj\\",
+      "outputPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula07\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dados\\AppData\\Roaming\\NuGet\\NuGet.Config"
