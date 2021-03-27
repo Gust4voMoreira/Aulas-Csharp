@@ -35,7 +35,7 @@ namespace aula04
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine("Introduza y: ");
             int y = int.Parse(Console.ReadLine());
-            Console.WriteLine("Introduza y: ");
+            Console.WriteLine("Introduza z: ");
             int z = int.Parse(Console.ReadLine());
 
             /*
