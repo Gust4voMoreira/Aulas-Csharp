@@ -9,6 +9,7 @@ namespace aula06
             //Data: 27/03/2021
             /*
             1)
+            */
             Console.Write("Digite a nota do primeiro bimestre: ");
             float nota1 = float.Parse(Console.ReadLine());
             Console.Write("Digite a nota do segundo bimestre: ");
@@ -17,23 +18,23 @@ namespace aula06
             float media = (nota1 + nota2) / 2;
             Console.WriteLine($"A média é: {media} ");     
 
-            if (media >= 6)
-            {
-                Console.Write("APROVADO");
+            if(media >= 9.0){
+                Console.WriteLine("A - APROVADO");
+            } else if(media >= 7.5){
+                Console.WriteLine("B - APROVADO");
+            } else if(media >= 6.0){
+                Console.WriteLine("C - APROVADO");
+            } else if(media >= 4.0){
+                Console.WriteLine("D - REPROVADO");
+            } else if(media >= 0){
+                Console.WriteLine("E - REPROVADO");
+            } else {
+                Console.WriteLine("ERRO");
             }
-            else if (media >= 4)
-            {
-                Console.Write("EXAME");
-            }
-            else
-            {
-                Console.Write("REPROVADO");
-            }
-            */
-
+            
             /*
             2)
-            */
+            
             Console.Write("Digite a nota do primeiro bimestre: ");
             int mes = int.Parse(Console.ReadLine());
             switch (mes)
@@ -76,8 +77,9 @@ namespace aula06
                     break;
                 default:
                     Console.WriteLine("Mês Inválido");
-                    break;
+                    break;  
             }
+            */
         }
     }
 }
