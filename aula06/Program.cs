@@ -9,7 +9,7 @@ namespace aula06
             //Data: 27/03/2021
             /*
             1)
-            */
+    
             Console.Write("Digite a nota do primeiro bimestre: ");
             float nota1 = float.Parse(Console.ReadLine());
             Console.Write("Digite a nota do segundo bimestre: ");
@@ -31,9 +31,47 @@ namespace aula06
             } else {
                 Console.WriteLine("ERRO");
             }
-            
+            */
+
             /*
             2)
+            */
+            string combustivel;
+            double etanol = 4.75, gasolina = 5.67, custo;
+            int litros;
+            double desconto1, desconto2, desconto3, desconto4;
+
+            Console.Write("Para Etanol digite E ou para Gasolina digite G: ");
+            combustivel = Console.ReadLine();
+
+            if(combustivel == "E"){
+                Console.Write("Quantos Litros: ");
+                litros = int.Parse(Console.ReadLine());
+                custo = litros * etanol;
+                if(litros <= 20){
+                    desconto1 = (custo * 3)/100;
+                    Console.WriteLine($"O preço do Etanol por {litros} litros é: R${custo - desconto1} reais");
+                } else {
+                    desconto2 = (custo * 5)/100;
+                    Console.WriteLine($"O preço do Etanol por {litros} litros é: R${custo - desconto2} reais");
+                }
+            } else if(combustivel == "G"){
+                Console.Write("Quantos Litros: ");
+                litros = int.Parse(Console.ReadLine());
+                custo = litros * gasolina;
+                if(litros <= 20){
+                    desconto3 = (custo * 4)/100;
+                    Console.WriteLine($"O preço do gasolina por {litros} litros é: R${custo - desconto3} reais");
+                } else {
+                    desconto4 = (custo * 6)/100;
+                    Console.WriteLine($"O preço do gasolina por {litros} litros é: R${custo - desconto4} reais");
+                }
+            } else {
+                Console.WriteLine("ERRO");
+            }
+
+            /*
+            3)
             
             Console.Write("Digite a nota do primeiro bimestre: ");
             int mes = int.Parse(Console.ReadLine());
