@@ -75,46 +75,47 @@ namespace aula06
             Console.Write("Para Etanol digite (E) ou para Gasolina digite (G): ");
             combustivel = char.Parse(Console.ReadLine());
 
-            if (combustivel == 'E')
+            switch (combustivel)
             {
-                Console.Write("Quantos Litros: ");
-                litros = int.Parse(Console.ReadLine());
-                custo = litros * 4.75;
-                if (litros <= 20)
-                {
-                    desconto1 = (custo * 3) / 100;
-                    Console.WriteLine($"O preço do Etanol por {litros} litros é: R${Math.Round(custo - desconto1, 2)} reais");
-                }
-                else
-                {
-                    desconto2 = (custo * 5) / 100;
-                    Console.WriteLine($"O preço do Etanol por {litros} litros é: R${Math.Round(custo - desconto2, 2)} reais");
-                }
+                case 'E':
+                case 'e':
+                    Console.Write("Quantos Litros: ");
+                    litros = int.Parse(Console.ReadLine());
+                    custo = litros * 4.75;
+                    if (litros <= 20)
+                    {
+                        desconto1 = (custo * 3) / 100;
+                        Console.WriteLine($"O preço do Etanol por {litros} litros é: R${Math.Round(custo - desconto1, 2)} reais");
+                    }
+                    else
+                    {
+                        desconto2 = (custo * 5) / 100;
+                        Console.WriteLine($"O preço do Etanol por {litros} litros é: R${Math.Round(custo - desconto2, 2)} reais");
+                    }
+                    break;
+                case 'G':
+                case 'g':
+                    Console.Write("Quantos Litros: ");
+                    litros = int.Parse(Console.ReadLine());
+                    custo = litros * 5.67;
+                    if (litros <= 20)
+                    {
+                        desconto3 = (custo * 4) / 100;
+                        Console.WriteLine($"O preço da gasolina por {litros} litros é: R${Math.Round(custo - desconto3, 2)} reais");
+                    }
+                    else
+                    {
+                        desconto4 = (custo * 6) / 100;
+                        Console.WriteLine($"O preço da gasolina por {litros} litros é: R${Math.Round(custo - desconto4, 2)} reais");
+                    }
+                    break;
+                default:
+                    Console.WriteLine("ERRO");
+                    break;
             }
-            else if (combustivel == 'G')
-            {
-                Console.Write("Quantos Litros: ");
-                litros = int.Parse(Console.ReadLine());
-                custo = litros * 5.67;
-                if (litros <= 20)
-                {
-                    desconto3 = (custo * 4) / 100;
-                    Console.WriteLine($"O preço do gasolina por {litros} litros é: R${Math.Round(custo - desconto3, 2)} reais");
-                }
-                else
-                {
-                    desconto4 = (custo * 6) / 100;
-                    Console.WriteLine($"O preço do gasolina por {litros} litros é: R${Math.Round(custo - desconto4, 2)} reais");
-                }
-            }
-            else
-            {
-                Console.WriteLine("ERRO");
-            }
-            
             /*
             3)
-            
+
             Console.Write("Digite a nota do primeiro bimestre: ");
             int mes = int.Parse(Console.ReadLine());
             switch (mes)
