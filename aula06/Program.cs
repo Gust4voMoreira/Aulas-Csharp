@@ -20,7 +20,7 @@ namespace aula06
             O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a 
             mensagem “APROVADO”, caso o Conceito seja A, B ou C ou “REPROVADO” caso seja C 
             ou D. 
-            */
+
             Console.Write("Digite a nota do primeiro bimestre: ");
             float nota1 = float.Parse(Console.ReadLine());
             Console.Write("Digite a nota do segundo bimestre: ");
@@ -53,7 +53,7 @@ namespace aula06
             {
                 Console.WriteLine("ERRO");
             }
-
+            */
 
             /*
             2) Um posto está vendendo combustível com a seguinte tabela de descontos: 
@@ -67,52 +67,51 @@ namespace aula06
             Faça um programa que leia o número de litros vendidos, o tipo de combustível (caso E 
             - Etanol – caso G – Gasolina), calcule e mostre o valor a ser pago pelo cliente sabe-se
             que o preço do litro da Gasolina é R$ 5,67 e do litro do Etanol é R$4,75.
-
-            string combustivel;
-            double etanol = 4.75, gasolina = 5.67, custo;
+            */
+            char combustivel;
             int litros;
-            double desconto1, desconto2, desconto3, desconto4;
+            double custo, desconto1, desconto2, desconto3, desconto4;
 
-            Console.Write("Para Etanol digite E ou para Gasolina digite G: ");
-            combustivel = Console.ReadLine();
+            Console.Write("Para Etanol digite (E) ou para Gasolina digite (G): ");
+            combustivel = char.Parse(Console.ReadLine());
 
-            if (combustivel == "E")
+            if (combustivel == 'E')
             {
                 Console.Write("Quantos Litros: ");
                 litros = int.Parse(Console.ReadLine());
-                custo = litros * etanol;
+                custo = litros * 4.75;
                 if (litros <= 20)
                 {
                     desconto1 = (custo * 3) / 100;
-                    Console.WriteLine($"O preço do Etanol por {litros} litros é: R${custo - desconto1} reais");
+                    Console.WriteLine($"O preço do Etanol por {litros} litros é: R${Math.Round(custo - desconto1, 2)} reais");
                 }
                 else
                 {
                     desconto2 = (custo * 5) / 100;
-                    Console.WriteLine($"O preço do Etanol por {litros} litros é: R${custo - desconto2} reais");
+                    Console.WriteLine($"O preço do Etanol por {litros} litros é: R${Math.Round(custo - desconto2, 2)} reais");
                 }
             }
-            else if (combustivel == "G")
+            else if (combustivel == 'G')
             {
                 Console.Write("Quantos Litros: ");
                 litros = int.Parse(Console.ReadLine());
-                custo = litros * gasolina;
+                custo = litros * 5.67;
                 if (litros <= 20)
                 {
                     desconto3 = (custo * 4) / 100;
-                    Console.WriteLine($"O preço do gasolina por {litros} litros é: R${custo - desconto3} reais");
+                    Console.WriteLine($"O preço do gasolina por {litros} litros é: R${Math.Round(custo - desconto3, 2)} reais");
                 }
                 else
                 {
                     desconto4 = (custo * 6) / 100;
-                    Console.WriteLine($"O preço do gasolina por {litros} litros é: R${custo - desconto4} reais");
+                    Console.WriteLine($"O preço do gasolina por {litros} litros é: R${Math.Round(custo - desconto4, 2)} reais");
                 }
             }
             else
             {
                 Console.WriteLine("ERRO");
             }
-            */
+            
             /*
             3)
             
