@@ -50,8 +50,8 @@ namespace aula07
             */
 
             /*
-            3) Faça um algoritmo que o leia um número e informar se o número é par ou ímpar.
-            */
+            3) Faça um algoritmo que leia um número e informar se o número é par ou ímpar.
+            
             int n1;
 
             Console.Write("Digite um número: ");
@@ -63,6 +63,29 @@ namespace aula07
             else
             {
                 Console.Write("ÍMPAR")
+            }
+            */
+
+            /*
+            4) Faça um algoritmo que leia dois valores inteiros A e B se os valores forem iguais deverá se
+            somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
+            */
+            int A, B, C;
+
+            Console.Write("Digite o primeiro número: ");
+            A = int.Parse(Console.ReadLine());
+            Console.Write("Digite o segundo número: ");
+            B = int.Parse(Console.ReadLine());
+
+            if (A == B)
+            {
+                C = A + B;
+                Console.Write($"Os valores são iguais, portanto A + B = {C}");
+            }
+            else
+            {
+                C = A * B;
+                Console.Write($"Os valores são diferentes, portanto A x B = {C}");
             }
 
         }
