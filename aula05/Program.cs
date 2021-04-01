@@ -50,7 +50,7 @@ namespace aula05
             */
 
             /*
-            2)Faça um programa para calcular a média ponderada de duas notas que será informada pelo usuário. O peso da primeira nota será 2 e o peso da segunda nota será 8. Mostrar na tela a média e os seguintes textos dependendo das condições:média maior ou igual a 6 – “Aprovado”, média maior que 4 e menor que 6 – “Exame Final” e média menor que 4 – “Reprovado”.
+            2)Faça um programa para calcular a média ponderada de duas notas que será informada pelo usuário. O peso da primeira nota será 2 e o peso da segunda nota será 8. Mostrar na tela a média e os seguintes textos dependendo das condições: média maior ou igual a 6 – “Aprovado”, média maior que 4 e menor que 6 – “Exame Final” e média menor que 4 – “Reprovado”.
             */
 
             float nota1, nota2, media;

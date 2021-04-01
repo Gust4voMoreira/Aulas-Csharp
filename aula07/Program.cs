@@ -6,6 +6,7 @@ namespace aula07
     {
         static void Main(string[] args)
         {
+            //Data: 30/03/2021
             /*
             1) Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor que C. 
             
@@ -53,19 +54,11 @@ namespace aula07
             */
 
             //erro
-            int n1, resto = n1 % 2;
+            double n1;
 
             Console.Write("Digite um número: ");
             n1 = int.Parse(Console.ReadLine());
 
-            if (resto == 0)
-            {
-                Console.WriteLine($"O número {n1} é par");
-            }
-            else
-            {
-                Console.WriteLine($"O número {n1} é impar");
-            }
         }
     }
 }

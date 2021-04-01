@@ -31,17 +31,19 @@ namespace aula03
             valor da hora trabalhada; 
             c. O imposto equivale a 3% do salário bruto; 
             d. O salário a receber equivale ao salário bruto menos o imposto. 
-
-            int hTrabalhada;
-            double hora = 120.00;
-            double salarioB, salarioR;
+            
+            int hora_Trabalhada;
+            double hora = 120;
+            double salario_Bruto, salario_Receber;
 
             Console.WriteLine("Horas de trabalho:");
-            hTrabalhada = int.Parse(Console.ReadLine());
-            salarioB = hora * hTrabalhada;
-            Console.WriteLine($"Salário bruto: R${salarioB} reais");
-            salarioR = salarioB - (salarioB * 0.03);
-            Console.WriteLine($"O salário a receber é: R${salarioR} reais");
+            hora_Trabalhada = int.Parse(Console.ReadLine());
+
+            salario_Bruto = hora * hora_Trabalhada;
+            salario_Receber = salario_Bruto - (salario_Bruto * 0.03);
+
+            Console.WriteLine("Salário bruto: "+salario_Bruto.ToString("C2")+" reais");
+            Console.WriteLine("O salário a receber é: "+salario_Receber.ToString("C2")+" reais");
             */
 
             /*
@@ -49,10 +51,8 @@ namespace aula03
             conta de Energia e a conta de água. Como as contas estão atrasadas, João terá 
             que pagar multa de 2% sobre cada conta. Faça um algoritmo que calcule e mostre 
             quanto restará do salário de João.
-            */
-
-            double salario, rSalario, energia, agua, multaE, multaA;
-            double percentual = 2.0 / 100.0;
+            
+            double salario, resto_Salario, energia, agua, multa_Energia, multa_Agua;
 
             Console.WriteLine("Digite seu Salário: ");
             salario = double.Parse(Console.ReadLine());
@@ -61,11 +61,12 @@ namespace aula03
             Console.WriteLine("Digite o valor da conta de Água:");
             agua = double.Parse(Console.ReadLine());
 
-            multaE = energia+(energia * percentual);
-            multaA = agua+(agua * percentual);
-            rSalario = salario - (multaE+multaA);
+            multa_Energia = energia + (energia * 0.02);
+            multa_Agua = agua + (agua * 0.02);
+            resto_Salario = salario - (multa_Energia + multa_Agua);
 
-            Console.WriteLine("O salário a receber é: "+rSalario.ToString("C2")+" reais");
+            Console.WriteLine("O salário a receber é: "+resto_Salario.ToString("C2")+" reais");
+            */
         }
     }
 }
