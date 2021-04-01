@@ -98,13 +98,13 @@ namespace aula07
 
             Console.Write("Digite um Número: ");
             n1 = int.Parse(Console.ReadLine());
- (n1 < 0)
+            if (n1 < 0)
             {
-                Console.Write($"O dobro do número digitado é: {n1 * 2}");
+                Console.Write($"O triplo do número digitado é: {n1 * 3}");
             }
             else
             {
-                Console.Write($"O triplo do número digitado é: {n1 * 3}");
+                Console.Write($"O dobro do número digitado é: {n1 * 2}");
             }
         }
     }
