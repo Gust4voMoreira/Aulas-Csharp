@@ -69,7 +69,7 @@ namespace aula07
             /*
             4) Faça um algoritmo que leia dois valores inteiros A e B se os valores forem iguais deverá se
             somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
-            */
+
             int A, B, C;
 
             Console.Write("Digite o primeiro número: ");
@@ -87,7 +87,25 @@ namespace aula07
                 C = A * B;
                 Console.Write($"Os valores são diferentes, portanto A x B = {C}");
             }
+            */
 
+            /*
+            5) Faça um algoritmo que leia um número e imprima o seu dobro caso seja positivo e o seu triplo caso seja
+            negativo.
+            */
+
+            int n1;
+
+            Console.Write("Digite um Número: ");
+            n1 = int.Parse(Console.ReadLine());
+ (n1 < 0)
+            {
+                Console.Write($"O dobro do número digitado é: {n1 * 2}");
+            }
+            else
+            {
+                Console.Write($"O triplo do número digitado é: {n1 * 3}");
+            }
         }
     }
 }
