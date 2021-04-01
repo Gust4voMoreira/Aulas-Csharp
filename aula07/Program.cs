@@ -52,12 +52,18 @@ namespace aula07
             /*
             3) Faça um algoritmo que o leia um número e informar se o número é par ou ímpar.
             */
-
-            //erro
-            double n1;
+            int n1;
 
             Console.Write("Digite um número: ");
             n1 = int.Parse(Console.ReadLine());
+            if((n1 % 2) == 0)
+            {
+                Console.Write("PAR");
+            } 
+            else
+            {
+                Console.Write("ÍMPAR")
+            }
 
         }
     }
