@@ -1,11 +1,8 @@
 ﻿using System;
 
-namespace aula07
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace aula07 {
+    class Program {
+        static void Main(string[] args) {
             //Data: 30/03/2021
             /*
             1) Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor que C. 
@@ -92,7 +89,6 @@ namespace aula07
             /*
             5) Faça um algoritmo que leia um número e imprima o seu dobro caso seja positivo e o seu triplo caso seja
             negativo.
-            */
 
             int n1;
 
@@ -106,6 +102,37 @@ namespace aula07
             {
                 Console.Write($"O dobro do número digitado é: {n1 * 2}");
             }
+            */
+
+            /*
+            6) O IMC – Indice de Massa Corporal é um critério da Organização Mundial de Saúde para dar uma indicação sobre a condição de peso de uma pessoa adulta. A fórmula é IMC = peso / ( altura )2. Elabore um algoritmo que leia o peso e a altura de um adulto e mostre sua condição de acordo com a tabela abaixo:		
+            a - IMC em adultos Condição		
+            b - Abaixo de 18,5 Abaixo do peso		
+            c - Entre 18,5 e 25 Peso normal		
+            d - Entre 25 e 30 Acima do peso		
+            e - Acima de 30 obeso
+            */
+            float altura, peso, imc;
+
+            Console.Write("Digite o seu peso (em Kg): ");
+            peso = float.Parse(Console.ReadLine());
+            Console.Write("Digite o sua altura (em metros): ");
+            altura = float.Parse(Console.ReadLine());
+
+            imc = (peso / (altura * altura));
+
+            Console.WriteLine($ "IMC: {imc}");
+
+            if (imc < 18.5) {
+                Console.WriteLine("Abaixo do normal");
+            } else if (imc > 18.5 && imc < 25) {
+                Console.WriteLine("Peso normal");
+            } else if (imc > 25 && imc < 30) {
+                Console.WriteLine("Acima do Peso");
+            } else if (imc > 30) {
+                Console.WriteLine("Obeso");
+            }
+
         }
     }
 }
