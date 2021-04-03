@@ -164,25 +164,25 @@ namespace aula07 {
             {
                 Console.WriteLine("Cartão de Débito 8% de desconto");
                 valor_pago = produto - ((produto * 8) / 100);
-                Console.WriteLine($"R$ {Math.Round(valor_pago, 2)} reais");
+                Console.WriteLine($"Valor: R$ {Math.Round(valor_pago, 2)} reais");
             } 
             else if (escolha == 3) 
             {
                 Console.WriteLine("Cartão de Crédito à vista 5% de desconto");
                 valor_pago = produto - ((produto * 5) / 100);
-                Console.WriteLine($"R$ {Math.Round(valor_pago, 2)} reais");
+                Console.WriteLine($"Valor: R$ {Math.Round(valor_pago, 2)} reais");
             } 
             else if (escolha == 4) 
             {
-                Console.Write("Parcelado em 10X, preço normal mais 5% de juros");
-
+                Console.WriteLine("Parcelado em 10X");
+                valor_pago = produto + ((produto * 5)/100);
+                Console.WriteLine($"Valor por parcela: R$ {Math.Round(valor_pago/10, 2)} reais");
+                Console.WriteLine($"Valor total: R$ {Math.Round(valor_pago, 2)} reais");
             } 
             else 
             {
                 Console.Write("ERRO");
             }
-
-
         }
     }
 }
