@@ -111,7 +111,7 @@ namespace aula07 {
             c - Entre 18,5 e 25 Peso normal		
             d - Entre 25 e 30 Acima do peso		
             e - Acima de 30 obeso
-            */
+            
             float altura, peso, imc;
 
             Console.Write("Digite o seu peso (em Kg): ");
@@ -132,6 +132,56 @@ namespace aula07 {
             } else if (imc > 30) {
                 Console.WriteLine("Obeso");
             }
+            */
+
+            /*
+            7) Faça um algoritmo que calcule o valor a ser pago por um produto de acordo com a forma de pagamento. Formas de pagamento: 
+            
+            (1) - À vista, recebe 10% de desconto;   
+            (2) - Cartão de Débito 8% de desconto;   
+            (3) - Cartão de Crédito à vista 5% de desconto;   
+            (4) - Parcelado em 10X, preço normal mais 5% de juros; 
+            
+            O usuário deverá informar o valor do produto, a forma de pagamento e ter como resultado o valor a ser pago.
+            */
+
+            double valor_pago, produto;
+            int escolha;
+
+            Console.WriteLine("Digite o valor do Produto: ");
+            produto = double.Parse(Console.ReadLine());
+            Console.Write("\n(1) - À vista, recebe 10% de desconto.\n(2) - Cartão de Débito 8% de desconto.\n(3) - Cartão de Crédito à vista 5% de desconto.\n(4) - Parcelado em 10X, preço normal mais 5% de juros.\n");
+            Console.WriteLine("\nEscolha a forma de pagamento: ");
+            escolha = int.Parse(Console.ReadLine());
+
+            if (escolha == 1) 
+            {
+                Console.WriteLine("À vista, recebe 10% de desconto");
+                valor_pago = produto - ((produto * 10) / 100);
+                Console.WriteLine($"Valor: R$ {Math.Round(valor_pago, 2)} reais");
+            } 
+            else if (escolha == 2) 
+            {
+                Console.WriteLine("Cartão de Débito 8% de desconto");
+                valor_pago = produto - ((produto * 8) / 100);
+                Console.WriteLine($"R$ {Math.Round(valor_pago, 2)} reais");
+            } 
+            else if (escolha == 3) 
+            {
+                Console.WriteLine("Cartão de Crédito à vista 5% de desconto");
+                valor_pago = produto - ((produto * 5) / 100);
+                Console.WriteLine($"R$ {Math.Round(valor_pago, 2)} reais");
+            } 
+            else if (escolha == 4) 
+            {
+                Console.Write("Parcelado em 10X, preço normal mais 5% de juros");
+
+            } 
+            else 
+            {
+                Console.Write("ERRO");
+            }
+
 
         }
     }
