@@ -42,10 +42,10 @@ namespace aula01
             imposto de 7% sobre o salário base.
             */
             /*
-            decimal salarioBase, salarioReceber, totalImposto, totalGratificacao;
+            decimal salarioBase, salarioReceber, totalImposto;
             Console.WriteLine("Digite seu salário: ");
             salarioBase = decimal.Parse(Console.ReadLine());
-            totalImposto = salarioBase * 0.02;
+            totalImposto = (salarioBase * 2) / 100;
             salarioReceber = salarioBase - totalImposto;
             Console.WriteLine("Salário a receber é: "+ salarioReceber);
             */
