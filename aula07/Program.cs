@@ -103,6 +103,10 @@ namespace aula07 {
             {
                 Console.Write($"O triplo do número digitado é: {n1 * 3}");
             }
+            else if (n1 == 0)
+            {
+                Console.Write("Zero é neutro");
+            }
             else
             {
                 Console.Write($"O dobro do número digitado é: {n1 * 2}");
