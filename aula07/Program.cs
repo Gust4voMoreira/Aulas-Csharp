@@ -61,6 +61,8 @@ namespace aula07 {
             {
                 Console.Write("ÍMPAR")
             }
+            //ou
+            //string resposta = (resto == 0)? "par" : "impar";
             */
 
             /*
