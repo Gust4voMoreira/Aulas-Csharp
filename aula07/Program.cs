@@ -144,7 +144,7 @@ namespace aula07 {
             {
                 Console.WriteLine("Acima do Peso");
             } 
-            else if (imc > 30) 
+            else 
             {
                 Console.WriteLine("Obeso");
             }
