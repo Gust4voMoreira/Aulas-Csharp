@@ -86,6 +86,9 @@ namespace aula07 {
                 C = A * B;
                 Console.Write($"Os valores são diferentes, portanto A x B = {C}");
             }
+            //ou
+            // c = (A + B) ? A + B : A * B;
+            //console.Write(c);
             */
 
             /*
