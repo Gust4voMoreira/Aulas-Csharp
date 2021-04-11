@@ -1,0 +1,16 @@
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\bin\Debug\net5.0\aula08.exe
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\bin\Debug\net5.0\aula08.deps.json
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\bin\Debug\net5.0\aula08.runtimeconfig.json
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\bin\Debug\net5.0\aula08.runtimeconfig.dev.json
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\bin\Debug\net5.0\aula08.dll
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\bin\Debug\net5.0\ref\aula08.dll
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\bin\Debug\net5.0\aula08.pdb
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\aula08.csprojAssemblyReference.cache
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\aula08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\aula08.AssemblyInfoInputs.cache
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\aula08.AssemblyInfo.cs
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\aula08.csproj.CoreCompileInputs.cache
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\aula08.dll
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\ref\aula08.dll
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\aula08.pdb
+C:\Users\dados\OneDrive\Documentos\MeusProjetos\Aulas-Csharp\aula08\obj\Debug\net5.0\aula08.genruntimeconfig.cache
