@@ -60,8 +60,58 @@ namespace aula08
             */
 
             /*
-            2)
+            2) Faça um algoritmo em PORTUGOL que leia um número e informe se ele é ou não 
+            divisível por 5.
+
+            Console.Write("Digite um Número: ");
+            int num = int.Parse(Console.ReadLine());
+
+            if((num % 5)== 0)
+            {
+                Console.WriteLine("Número divisível por 5");
+            }
+            else
+            {
+                Console.WriteLine("Número não divisível por 5");
+            }
             */
+
+            /*
+            3) Escreva um algoritmo em C# para determinar se um número A é divisível por um 
+            outro número B. Esses valores devem ser fornecidos pelo usuário. 
+
+            Console.Write("Número A: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.Write("Número B: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+            if ((num1 % num2) == 0)
+            {
+                Console.WriteLine($"o número A: {num1} é divisível pelo número B: {num2}");
+            }
+            else
+            {
+                Console.WriteLine($"o número A: {num1} NÃO é divisível pelo número B: {num2}");
+            }
+            */
+
+            /*
+            4) A prefeitura de Porto Velho abriu uma linha de crédito para os professores. O valor 
+            máximo da prestação não poderá ultrapassar 30% do salário bruto. Fazer um 
+            algoritmo que permita entrar com o salário bruto e o valor da prestação, e informar 
+            e o empréstimo pode ou não ser concedido. 
+            */
+
+            decimal salario_Bruto, prestacao, porcentagem;
+
+            Console.Write("Digite o valor do salário: ");
+            salario_Bruto = decimal.Parse(Console.ReadLine());
+            Console.Write("Digite o valor da prestação: ");
+            prestacao = decimal.Parse(Console.ReadLine());
+
+            porcentagem = (salario_Bruto * 0.03);
+            
+            if (prestacao > porcentagem)
         }
     }
 }
