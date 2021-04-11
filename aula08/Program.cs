@@ -109,9 +109,16 @@ namespace aula08
             Console.Write("Digite o valor da prestação: ");
             prestacao = decimal.Parse(Console.ReadLine());
 
-            porcentagem = (salario_Bruto * 0.03);
+            porcentagem = salario_Bruto * (30/100);
             
-            if (prestacao > porcentagem)
+            if (prestacao <= porcentagem)
+            {
+                Console.WriteLine("O emprestimo pode ser concedido");
+            }
+            else
+            {
+                Console.WriteLine("O emprestimo NÃO pode ser concedido");
+            }
         }
     }
 }
