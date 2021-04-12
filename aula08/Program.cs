@@ -172,12 +172,18 @@ namespace aula08
             }
             */
 
-
             /*
             7) Faça um algoritmo em C# para calcular as raízes de uma equação do 2º grau, sendo 
             que os valores dos coeficientes A, B, e C devem ser fornecidos pelo usuário através 
             do teclado.
             */
+            Console.Write("Digite o valor de A: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.Write("Digite o valor de B: ");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.Write("Digite o valor de C: ");
+            int num3 = int.Parse(Console.ReadLine());
+
 
             /*
             8) Faça um algoritmo em C# que leia o destino do passageiro (Brasília, Rio de Janeiro, 
