@@ -126,30 +126,52 @@ namespace aula08
             • maior de idade; 
             • menor de idade; 
             • pessoa idosa (idade superior ou igual a 65 anos). 
-            */
 
             Console.Write("Digite sua idade: ");
             int idade = int.Parse(Console.ReadLine());
 
-            if (idade >= 65)
+            if (idade >= 0 && idade < 18)
             {
-                Console.Write("Pessoa idosa");
+                Console.Write("Menor de idade");
             }
             else if (idade >= 18)
             {
                 Console.Write("Maior de idade");
             }
+            else if (idade >= 65)
+            {
+                Console.Write("Pessoa idosa");
+            }
             else
             {
-                Console.Write("Menor de idade")
+                Console.Write("ERRO");
             }
+            */
+
             /*
             6) Faça um algoritmo em C# que leia a idade de uma pessoa e informe a sua classe 
             eleitoral: 
             • não eleitor (abaixo de 16 anos); 
             • eleitor obrigatório (entre a faixa de 18 e menor de 65 anos); 
             • eleitor facultativo (de 16 até 18 anos e maior de 65 anos, inclusive).
+            
+            Console.Write("Digite sua idade: ");
+            int idade = int.Parse(Console.ReadLine());
+
+            if (idade >= 16 && idade <= 18 || idade > 65)
+            {
+                Console.Write("Eleitor facultativo");
+            }
+            else if (idade > 18 && idade <= 65)
+            {
+                Console.Write("Eleitor obrigatório");
+            }
+            else
+            {
+                Console.Write("Não eleitor");
+            }
             */
+
 
             /*
             7) Faça um algoritmo em C# para calcular as raízes de uma equação do 2º grau, sendo 
