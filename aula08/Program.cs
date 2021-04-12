@@ -100,7 +100,6 @@ namespace aula08
             máximo da prestação não poderá ultrapassar 30% do salário bruto. Fazer um 
             algoritmo que permita entrar com o salário bruto e o valor da prestação, e informar 
             e o empréstimo pode ou não ser concedido. 
-            */
 
             decimal salario_Bruto, prestacao, porcentagem;
 
@@ -119,6 +118,54 @@ namespace aula08
             {
                 Console.WriteLine("O emprestimo NÃO pode ser concedido");
             }
+            */
+
+            /*
+            5) Faça um algoritmo em C# que dada a idade de uma pessoa, determine sua 
+            classificação segundo a seguinte tabela: 
+            • maior de idade; 
+            • menor de idade; 
+            • pessoa idosa (idade superior ou igual a 65 anos). 
+            */
+
+            Console.Write("Digite sua idade: ");
+            int idade = int.Parse(Console.ReadLine());
+
+            if (idade >= 65)
+            {
+                Console.Write("Pessoa idosa");
+            }
+            else if (idade >= 18)
+            {
+                Console.Write("Maior de idade");
+            }
+            else
+            {
+                Console.Write("Menor de idade")
+            }
+            /*
+            6) Faça um algoritmo em C# que leia a idade de uma pessoa e informe a sua classe 
+            eleitoral: 
+            • não eleitor (abaixo de 16 anos); 
+            • eleitor obrigatório (entre a faixa de 18 e menor de 65 anos); 
+            • eleitor facultativo (de 16 até 18 anos e maior de 65 anos, inclusive).
+            */
+
+            /*
+            7) Faça um algoritmo em C# para calcular as raízes de uma equação do 2º grau, sendo 
+            que os valores dos coeficientes A, B, e C devem ser fornecidos pelo usuário através 
+            do teclado.
+            */
+
+            /*
+            8) Faça um algoritmo em C# que leia o destino do passageiro (Brasília, Rio de Janeiro, 
+            São PauloBahia), se a viagem inclui retorno (ida e volta) e informar o preço da 
+            passagem conforme a tabela a seguir: 
+            • Bahia - Ida R$ 850,00 Volta R$ 900,00 
+            • Rio de Janeiro - Ida R$ 550,00 Volta R$ 750,00 
+            • São Paulo - Ida R$ 550,00 Volta R$ 600,00 
+            • Brasília - Ida R$ 500,00 Volata R$ 550,00
+            */
         }
     }
 }
