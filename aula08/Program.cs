@@ -176,14 +176,33 @@ namespace aula08
             7) Faça um algoritmo em C# para calcular as raízes de uma equação do 2º grau, sendo 
             que os valores dos coeficientes A, B, e C devem ser fornecidos pelo usuário através 
             do teclado.
-            */
-            Console.Write("Digite o valor de A: ");
-            int num1 = int.Parse(Console.ReadLine());
-            Console.Write("Digite o valor de B: ");
-            int num2 = int.Parse(Console.ReadLine());
-            Console.Write("Digite o valor de C: ");
-            int num3 = int.Parse(Console.ReadLine());
 
+            Console.Write("Digite o valor de A: ");
+            double num_A = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor de B: ");
+            double num_B = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor de C: ");
+            double num_C = double.Parse(Console.ReadLine());
+
+            double delta = ((num_B*num_B)-(4*num_A*num_C));
+
+            if( delta <= 0)
+            {
+                Console.Write("Delta negativo! Não existe raíz real!");
+            }
+            else
+            {
+                double raiz = Math.Sqrt(num_B);
+                
+                double x1 = ((num_B * (-1)) + (num_B) - (4 * num_A * num_C)) / 2 * num_A;
+
+                double x2 = ((num_B * (-1)) - (num_B) - (4 * num_A * num_C)) / 2 * num_A;
+
+                Console.WriteLine($"Delta: {delta}");
+                Console.WriteLine($"x1 = {x1}");
+                Console.WriteLine($"x2 = {x2}");
+            }
+            */
 
             /*
             8) Faça um algoritmo em C# que leia o destino do passageiro (Brasília, Rio de Janeiro, 
@@ -193,6 +212,70 @@ namespace aula08
             • Rio de Janeiro - Ida R$ 550,00 Volta R$ 750,00 
             • São Paulo - Ida R$ 550,00 Volta R$ 600,00 
             • Brasília - Ida R$ 500,00 Volata R$ 550,00
+
+            Console.Write("Escolha seu desistino:\n (1) Brasília;\n (2) Rio de Janeiro;\n (3) São Paulo;\n (4) Bahia.\n");
+            int destino = int.Parse(Console.ReadLine());
+            Console.Write("A viagem ida e volta?\n (1)SIM\n (2)NÂO\n");
+            int retorno = int.Parse(Console.ReadLine());
+
+            if (retorno == 1)
+            {
+                if (destino == 1)
+                {
+                    Console.WriteLine("Brasília - Ida R$ 500,00 Volata R$ 550,00");
+                    Console.WriteLine("Valor total: R$1050 reais");
+                }
+                else if (destino == 2)
+                {
+                    Console.WriteLine("Rio de Janeiro - Ida R$ 550,00 Volta R$ 750,00");
+                    Console.WriteLine("Valor total: R$1300 reais");
+                }
+                else if (destino == 3)
+                {
+                    Console.WriteLine("São Paulo - Ida R$ 550,00 Volta R$ 600,00");
+                    Console.WriteLine("Valor total: R$1150 reais");
+                }
+                else if (destino == 4)
+                {
+                    Console.WriteLine("Bahia - Ida R$ 850,00 Volta R$ 900,00");
+                    Console.WriteLine("Valor total: R$1750 reais");
+                }
+                else
+                {
+                    Console.WriteLine("ERRO");
+                }
+            }
+            else if (retorno == 2)
+            {
+                if (destino == 1)
+                {
+                    Console.WriteLine("Brasília - Ida R$ 500,00");
+                    Console.WriteLine("Valor total: R$500 reais");
+                }
+                else if (destino == 2)
+                {
+                    Console.WriteLine("Rio de Janeiro - Ida R$ 550,00");
+                    Console.WriteLine("Valor total: R$550 reais");
+                }
+                else if (destino == 3)
+                {
+                    Console.WriteLine("São Paulo - Ida R$ 550,00");
+                    Console.WriteLine("Valor total: R$550 reais");
+                }
+                else if (destino == 4)
+                {
+                    Console.WriteLine("Bahia - Ida R$ 850,00");
+                    Console.WriteLine("Valor total: R$850 reais");
+                }
+                else
+                {
+                    Console.WriteLine("ERRO");
+                }
+            }
+            else
+            {
+                Console.WriteLine("ERRO");
+            }
             */
         }
     }
