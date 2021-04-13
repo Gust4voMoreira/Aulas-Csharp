@@ -6,7 +6,11 @@ namespace prova
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!");
+            string nome;
+            int idade;
+            float altura;
+
+            
         }
     }
 }
