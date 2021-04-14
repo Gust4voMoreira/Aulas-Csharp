@@ -8,6 +8,7 @@ namespace prova
         {
             /*
             1)
+
             Console.Write("Digite o nome: ");
             string nome = Console.ReadLine();
             Console.Write("Digite a idade: ");
@@ -91,7 +92,7 @@ namespace prova
 
             /*
             3)
-            */
+
             double valor_pago, produto;
             int escolha;
 
@@ -117,13 +118,14 @@ namespace prova
             {
                 Console.WriteLine("Em duas vezes, recebe 10% de desconto.");
                 valor_pago = produto - ((produto * 10) / 100);
+                Console.WriteLine($"Valor por parcela: R$ {Math.Round(valor_pago/2, 2)} reais");
                 Console.WriteLine($"Valor: R$ {Math.Round(valor_pago, 2)} reais");
             } 
             else if (escolha == 4) 
             {
                 Console.WriteLine("Em três vezes, recebe 5% de desconto.");
-                valor_pago = produto + ((produto * 5)/100);
-                Console.WriteLine($"Valor por parcela: R$ {Math.Round(valor_pago/10, 2)} reais");
+                valor_pago = produto - ((produto * 5)/100);
+                Console.WriteLine($"Valor por parcela: R$ {Math.Round(valor_pago/3, 2)} reais");
                 Console.WriteLine($"Valor total: R$ {Math.Round(valor_pago, 2)} reais");
             } 
             else if (escolha == 5) 
@@ -137,7 +139,20 @@ namespace prova
             {
                 Console.Write("ERRO");
             }
-            //testa essa bosta!
+            */
+
+            /*
+            4)
+            */
+            
+            Console.Write("Digite a distancia entre as duas cidades em (km): ");
+            int distancia = int.Parse(Console.ReadLine());
+            Console.Write("Digite o tempo do percurso do PRIMEIRO ônibus em (minutos): ");
+            int tempo1 = int.Parse(Console.ReadLine());
+            Console.Write("Digite o tempo do percurso do SEGUNDO ônibus em (minutos): ");
+            int tempo2 = int.Parse(Console.ReadLine());
+
+
         }
     }
 }
