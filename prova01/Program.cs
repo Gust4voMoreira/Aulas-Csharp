@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace prova
+namespace prova01
 {
     class Program
     {
