@@ -6,6 +6,7 @@ namespace prova01
     {
         static void Main(string[] args)
         {
+            //Data: 13/04/2021
             /*
             1) Todo ano a escola Marechal Rondon realiza um torneio interclasse de queimada. Esse jogo é 
             composto por dois times com cinco participantes cada, onde o integrante de um time tem que atingir 
