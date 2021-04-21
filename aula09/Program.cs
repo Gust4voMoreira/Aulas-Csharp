@@ -8,6 +8,16 @@ namespace aula09
         {
             //Data: 20/04/2021
             
+            int num = 1, soma = 0;
+
+            while (num <= 10)
+            {
+                Console.WriteLine(num + soma);
+                soma = num + soma;
+                num ++;
+
+            //55
+            }
         }
     }
 }
