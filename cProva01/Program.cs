@@ -137,27 +137,26 @@ namespace cProva01
             double saida1 = double.Parse(Console.ReadLine());
             Console.Write("Digite a hora de chegada do PRIMEIRO ônibus em (horas): ");
             double chegada1 = double.Parse(Console.ReadLine());
-            // Console.Write("Digite a hora de saída do SEGUNDO ônibus em (horas): ");
-            // double saida2 = double.Parse(Console.ReadLine());
-            // Console.Write("Digite a hora de chegada do SEGUNDO ônibus em (horas): ");
-            // double chegada2 = double.Parse(Console.ReadLine());
+            Console.Write("Digite a hora de saída do SEGUNDO ônibus em (horas): ");
+            double saida2 = double.Parse(Console.ReadLine());
+            Console.Write("Digite a hora de chegada do SEGUNDO ônibus em (horas): ");
+            double chegada2 = double.Parse(Console.ReadLine());
 
             double tempo1 = saida1 + chegada1;
-
+            double tempo2 = saida2 + chegada2;
             double vm1 = distancia/tempo1;
-            //double vm2 = distancia/tempo2;
+            double vm2 = distancia/tempo2;
 
-            Console.WriteLine($"Velocidade: {vm1}km/h");
-            // if(vm1 > vm2)
-            // {
-            //     Console.WriteLine($"Velocidade: {vm1}km/h");
-            //     Console.WriteLine("O PRIMEIRO ônibus é mais rapido.");
-            // }
-            // else
-            // {
-            //     Console.WriteLine($"Velocidade: {vm2}km/h");
-            //     Console.WriteLine("O SEGUNDO ônibus é mais rapido.");
-            // }
+            if(vm1 > vm2)
+            {
+                Console.WriteLine($"Velocidade: {vm1}km/h");
+                Console.WriteLine("O PRIMEIRO ônibus é mais rapido.");
+            }
+            else
+            {
+                Console.WriteLine($"Velocidade: {vm2}km/h");
+                Console.WriteLine("O SEGUNDO ônibus é mais rapido.");
+            }
             
             /*
             5)
