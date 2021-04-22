@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\Cprova01\\Cprova01.csproj": {}
+    "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\cProva01\\Cprova01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\Cprova01\\Cprova01.csproj": {
+    "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\cProva01\\Cprova01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\Cprova01\\Cprova01.csproj",
+        "projectUniqueName": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\cProva01\\Cprova01.csproj",
         "projectName": "Cprova01",
-        "projectPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\Cprova01\\Cprova01.csproj",
+        "projectPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\cProva01\\Cprova01.csproj",
         "packagesPath": "C:\\Users\\dados\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\Cprova01\\obj\\",
+        "outputPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\cProva01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dados\\AppData\\Roaming\\NuGet\\NuGet.Config"
