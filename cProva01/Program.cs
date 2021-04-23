@@ -125,11 +125,7 @@ namespace cProva01
             */
 
             /*
-            4) Uma empresa de transporte rodoviário necessita de um programa para verificar qual ônibus é
-            mais rápido em uma viagem entre duas cidades. Considerando que dois ônibus fazem o mesmo 
-            percurso, o programa deverá ler a distância entra as duas cidades a hora de saída e a hora de 
-            chegada de cada um dos ônibus, e informa a velocidade do ônibus mais rápido.
-            */
+            4)
             
             Console.Write("Digite a distancia entre as duas cidades em (km): ");
             double distancia = double.Parse(Console.ReadLine());
@@ -157,7 +153,8 @@ namespace cProva01
                 Console.WriteLine($"Velocidade: {vm2}km/h");
                 Console.WriteLine("O SEGUNDO ônibus é mais rapido.");
             }
-            
+            */
+
             /*
             5)
             
