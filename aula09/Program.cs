@@ -7,6 +7,7 @@ namespace aula09
         static void Main(string[] args)
         {
             //Data: 20/04/2021
+            //2°
             /*
             1) Faça um algoritmo para calcular a somatória dos número de 1 até 10;
             int num = 1, soma = 0;

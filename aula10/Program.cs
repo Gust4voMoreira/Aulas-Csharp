@@ -31,14 +31,25 @@ namespace aula10 {
             */
 
             /*
-            4) Escreva um programa que escreva os números ímpares entre 100 e 200
+            4) Faça um programa que escreva os números ímpares entre 100 e 200
+
             for (int i = 100; i <= 200; i++)
             {
                 if (i % 2 != 0){
                     Console.WriteLine(i);
                 }
             }
+            //ou
+
+            int cont = 101;
+
+            while (cont < 200)
+            {
+                Console.WriteLine(cont);
+                cont += 2;
+            }
             */
+            
         }
     }
 }
