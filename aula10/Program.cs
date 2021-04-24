@@ -69,14 +69,17 @@ namespace aula10 {
 
             while (num <= 50)
             {
-                if (num % 3 == 0 && num % 2 =! 0)
+                if(num % 2 != 0)
                 {
-                    
-                } 
-                num++; 
+                    if (num % 3 == 0)
+                    {
+                        soma += num; 
+                        Console.WriteLine(soma);
+                        num++;
+                    } 
+                 
+                }
             }
-            soma += num; 
-            Console.WriteLine(soma);
         }
     }
 }
