@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Cprova01/1.0.0": {
+      "cProva01/1.0.0": {
         "runtime": {
-          "Cprova01.dll": {}
+          "cProva01.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Cprova01/1.0.0": {
+    "cProva01/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

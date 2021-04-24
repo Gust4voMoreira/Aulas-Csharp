@@ -67,18 +67,17 @@ namespace aula10 {
             */
             int num = 1, soma = 0;
 
-            while (num <= 50)
+            while (num <= 500)
             {
-                if(num % 2 != 0)
+                soma += num; 
+                if(soma % 2 != 0)
                 {
-                    if (num % 3 == 0)
+                    if (soma % 3 == 0)
                     {
-                        soma += num; 
                         Console.WriteLine(soma);
-                        num++;
                     } 
-                 
                 }
+                num++;
             }
         }
     }
