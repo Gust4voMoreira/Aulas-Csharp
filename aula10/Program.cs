@@ -40,7 +40,6 @@ namespace aula10 {
                 }
             }
             //ou
-
             int cont = 101;
 
             while (cont < 200)
@@ -50,6 +49,34 @@ namespace aula10 {
             }
             */
             
+            /*
+            5) Faça um programa que efetue a soma de números entre 1 a 50.
+
+            int num = 1, soma = 0;
+
+            while (num <= 50)
+            {
+                soma += num; 
+                num++; 
+            }
+            Console.WriteLine(soma);
+            */
+
+            /*
+            6)
+            */
+            int num = 1, soma = 0;
+
+            while (num <= 50)
+            {
+                if (num % 3 == 0 && num % 2 =! 0)
+                {
+                    
+                } 
+                num++; 
+            }
+            soma += num; 
+            Console.WriteLine(soma);
         }
     }
 }
