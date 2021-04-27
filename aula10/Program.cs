@@ -64,7 +64,7 @@ namespace aula10 {
 
             /*
             6) Desenvolva um programa que efetue a soma de todos os números ímpares que são múltiplos de três e que se encontram no conjunto dos números de 1 até 500.
-            */
+            
             int num = 1, soma = 0;
 
             while (num <= 500)
@@ -79,7 +79,7 @@ namespace aula10 {
                 }
                 num++;
             }
-            //ERRO
+            */
         }
     }
 }
