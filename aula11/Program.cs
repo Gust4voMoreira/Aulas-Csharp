@@ -19,10 +19,23 @@ namespace aula11
             */
             int num, fatorial;
 
+            Console.WriteLine("Digite um número: ");
+            num = int.Parse(Console.ReadLine());
+
             if (num == 0 || num == 1)
             {
-                
+                Console.Write($"Fatorial de {num} é 1");
             }
+            else
+            {
+                for (int  i = 0;  i > num; i--)
+                {
+                    fatorial = num * i;
+                    Console.WriteLine($"Fatorial de {num} é {fatorial}");
+                }
+                Console.WriteLine($"Fatorial de {num} é {fatorial}");
+            }
+            
         }
     }
 }
