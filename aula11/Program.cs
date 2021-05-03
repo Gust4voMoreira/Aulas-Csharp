@@ -61,7 +61,22 @@ namespace aula11
             número calculado seja maior ou igual a um limite que será informado pelo 
             usuário.
             */
-            
+
+            int num, soma;
+
+            Console.WriteLine("Digite: ");
+            num = int.Parse(Console.ReadLine());
+
+            int i = 1, ultimo = 1, penultimo = 1;
+            while (i <= num)
+            {
+                
+                soma = ultimo + penultimo;
+                penultimo = ultimo;
+                ultimo = soma;
+                i += 1;
+                Console.WriteLine(soma);
+            } 
         }
     }
 }
