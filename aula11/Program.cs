@@ -33,7 +33,6 @@ namespace aula11
                     fatorial = num * i;
                     Console.WriteLine($"Fatorial de {num} é {fatorial}");
                 }
-                Console.WriteLine($"Fatorial de {num} é {fatorial}");
             }
             
         }
