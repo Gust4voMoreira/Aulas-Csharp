@@ -47,6 +47,20 @@ namespace aula11
                 Console.WriteLine(fat);
             }
             */
+
+            /*
+            2) - Faça um programa em C# capaz de calcular a sequência de Fibonacci sendo 
+            que:
+            • O primeiro número é sempre 0.
+            • O segundo número é sempre 1.
+            • Os próximos números são o resultado da soma de seus dois 
+            predecessores.
+            Exemplo:
+            0,1,1,2,3,5,8,13,21,34,55,89...
+            O algoritmo deve calcular e mostrar a sequência de Fibonacci até que o último 
+            número calculado seja maior ou igual a um limite que será informado pelo 
+            usuário.
+            */
             
         }
     }
