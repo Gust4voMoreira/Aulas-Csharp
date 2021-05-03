@@ -60,7 +60,6 @@ namespace aula11
             O algoritmo deve calcular e mostrar a sequência de Fibonacci até que o último 
             número calculado seja maior ou igual a um limite que será informado pelo 
             usuário.
-            */
 
             int num, soma;
 
@@ -77,6 +76,53 @@ namespace aula11
                 i += 1;
                 Console.WriteLine(soma);
             } 
+            */
+
+            /*
+            3) - Faça um algoritmo capaz de determinar o maior número de uma sequência 
+            de 10 números que deverão ser digitados pelo usuário, e apresente o resultado 
+            ao final do processamento.
+
+            // int num;
+
+            // for (int i = 0; i < 10; i++)
+            // {
+            //     Console.WriteLine($"Digite o {i}°: ");
+            //     num = int.Parse(Console.ReadLine());
+            // }
+            int num, maior, menor;
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Digite 10 números aleatoriamente");
+                num = int.Parse(Console.ReadLine());
+                maior = num;
+                menor = num;
+                Console.WriteLine("Digite 10 números aleatoriamente");
+                num = int.Parse(Console.ReadLine());
+
+                if (num > maior)
+                {
+                    maior = num;
+                }
+
+                if (num < menor)
+                {
+                    menor = num;
+                }
+                i = i + 1;
+                Console.WriteLine($"O número maior: {maior} e o número menor: {menor}");
+                //erro
+            }
+            */
+
+            /*
+            4) Faça um programa em C# que leia um número não determinado de valores, 
+            calcule e escreva a média aritmética dos valores lidos, a quantidade de valores 
+            positivos, a quantidade de valores negativos. O usuário que determinará o 
+            término do programa.
+            */
+            
         }
     }
 }
