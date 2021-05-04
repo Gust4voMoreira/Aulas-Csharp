@@ -82,7 +82,7 @@ namespace aula11
             3) - Faça um algoritmo capaz de determinar o maior número de uma sequência 
             de 10 números que deverão ser digitados pelo usuário, e apresente o resultado 
             ao final do processamento.
-
+            */
             // int num;
 
             // for (int i = 0; i < 10; i++)
@@ -90,29 +90,33 @@ namespace aula11
             //     Console.WriteLine($"Digite o {i}°: ");
             //     num = int.Parse(Console.ReadLine());
             // }
-            int num, maior, menor;
+            /*
+            int num1, num2, num3, num4;
 
-            for (int i = 0; i < 3; i++)
+            Console.WriteLine("Digite o 1° número: ");
+            num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o 2° número: ");
+            num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o 3° número: ");
+            num3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o 4° número: ");
+            num4 = int.Parse(Console.ReadLine());
+
+            if (num1 > num2 && num1 > num3 && num1 > num4)
             {
-                Console.WriteLine("Digite 10 números aleatoriamente");
-                num = int.Parse(Console.ReadLine());
-                maior = num;
-                menor = num;
-                Console.WriteLine("Digite 10 números aleatoriamente");
-                num = int.Parse(Console.ReadLine());
-
-                if (num > maior)
-                {
-                    maior = num;
-                }
-
-                if (num < menor)
-                {
-                    menor = num;
-                }
-                i = i + 1;
-                Console.WriteLine($"O número maior: {maior} e o número menor: {menor}");
-                //erro
+                Console.WriteLine($"maior número: {num1}");
+            }
+            else if(num2 > num3 && num2 > num4)
+            {
+                Console.WriteLine($"maior número: {num2}");
+            }
+            else if (num3 > num4)
+            {
+                Console.WriteLine($"maior número: {num3}");
+            }
+            else
+            {
+                Console.WriteLine($"maior número: {num4}");
             }
             */
 
@@ -123,6 +127,18 @@ namespace aula11
             término do programa.
             */
             
+            /*
+            5) Faça um programa em C# que leia uma quantidade desconhecida de números 
+            e conte quantos deles estão nos seguintes intervalos: 0-25, 26-50, 51-75 e 76-
+            100. A entrada de dados deve terminar quando for lido um número negativo.
+            */
+
+            /*
+            6) Faça um programa em C# que leia uma quantidade não determinada de 
+            números positivos. Calcule a quantidade de números pares e ímpares, a média 
+            de valores pares e a média geral dos números lidos. O número que encerrará a 
+            leitura será zero.
+            */
         }
     }
 }
