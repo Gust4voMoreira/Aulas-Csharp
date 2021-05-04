@@ -58,67 +58,31 @@ namespace aula11
             Exemplo:
             0,1,1,2,3,5,8,13,21,34,55,89...
             O algoritmo deve calcular e mostrar a sequência de Fibonacci até que o último 
-            número calculado seja maior ou igual a um limite que será informado pelo 
+            número calculado seja menor ou igual a um limite que será informado pelo 
             usuário.
-
-            int num, soma;
-
-            Console.WriteLine("Digite: ");
-            num = int.Parse(Console.ReadLine());
-
-            int i = 1, ultimo = 1, penultimo = 1;
-            while (i <= num)
-            {
-                
-                soma = ultimo + penultimo;
-                penultimo = ultimo;
-                ultimo = soma;
-                i += 1;
-                Console.WriteLine(soma);
-            } 
             */
+            int pn = 0;
 
             /*
             3) - Faça um algoritmo capaz de determinar o maior número de uma sequência 
             de 10 números que deverão ser digitados pelo usuário, e apresente o resultado 
             ao final do processamento.
             */
-            // int num;
+            int num, maior = 0;
 
-            // for (int i = 0; i < 10; i++)
-            // {
-            //     Console.WriteLine($"Digite o {i}°: ");
-            //     num = int.Parse(Console.ReadLine());
-            // }
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine($"Digite o {i}° número: ");
+                num = int.Parse(Console.ReadLine());
+
+                if (num > maior)
+                {
+                    maior = num;
+                }
+            }
+            Console.WriteLine($"Maior: ");
             /*
-            int num1, num2, num3, num4;
-
-            Console.WriteLine("Digite o 1° número: ");
-            num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o 2° número: ");
-            num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o 3° número: ");
-            num3 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o 4° número: ");
-            num4 = int.Parse(Console.ReadLine());
-
-            if (num1 > num2 && num1 > num3 && num1 > num4)
-            {
-                Console.WriteLine($"maior número: {num1}");
-            }
-            else if(num2 > num3 && num2 > num4)
-            {
-                Console.WriteLine($"maior número: {num2}");
-            }
-            else if (num3 > num4)
-            {
-                Console.WriteLine($"maior número: {num3}");
-            }
-            else
-            {
-                Console.WriteLine($"maior número: {num4}");
-            }
-            */
+            
 
             /*
             4) Faça um programa em C# que leia um número não determinado de valores, 
