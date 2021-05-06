@@ -60,22 +60,23 @@ namespace aula11
             O algoritmo deve calcular e mostrar a sequência de Fibonacci até que o último 
             número calculado seja menor ou igual a um limite que será informado pelo 
             usuário.
-            */
-            
-            int num, pri_num, seg_num = 1, ter_num = 1;
+
+            int num_lit, pri_num = 0, seg_num = 1, ter_num = 1;
 
             Console.WriteLine("Digite o limite: ");
-            num = int.Parse(Console.ReadLine());
+            num_lit = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("0, 1, ");
-            for (pri_num = 1; pri_num < num; pri_num++)
+            Console.Write("0, 1, 1, ");
+
+            while (ter_num <= num_lit)
             {
-                seg_num = pri_num;
-                 pri_num;
+                pri_num = seg_num;
+                seg_num = ter_num;
+                ter_num = pri_num + seg_num;
 
-                Console.WriteLine(seg_num);
+                Console.Write($"{ter_num}, ");
             }
-
+            */
 
             /*
             3) - Faça um algoritmo capaz de determinar o maior número de uma sequência 
@@ -96,14 +97,14 @@ namespace aula11
             }
             Console.WriteLine($"Maior: {maior}");
             */
-            
+
             /*
             4) Faça um programa em C# que leia um número não determinado de valores, 
             calcule e escreva a média aritmética dos valores lidos, a quantidade de valores 
             positivos, a quantidade de valores negativos. O usuário que determinará o 
             término do programa.
             */
-            
+
             /*
             5) Faça um programa em C# que leia uma quantidade desconhecida de números 
             e conte quantos deles estão nos seguintes intervalos: 0-25, 26-50, 51-75 e 76-
