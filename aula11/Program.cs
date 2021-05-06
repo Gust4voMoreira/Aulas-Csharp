@@ -61,7 +61,8 @@ namespace aula11
             número calculado seja menor ou igual a um limite que será informado pelo 
             usuário.
             */
-            int pn = 0;
+            
+            
 
             /*
             3) - Faça um algoritmo capaz de determinar o maior número de uma sequência 
@@ -80,8 +81,8 @@ namespace aula11
                     maior = num;
                 }
             }
-            Console.WriteLine($"Maior: ");
-            /*
+            Console.WriteLine($"Maior: {maior}");
+            
             
 
             /*
