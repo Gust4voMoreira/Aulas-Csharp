@@ -105,6 +105,15 @@ namespace aula11
             término do programa.
             */
 
+            int num = 0;
+
+            while (num != 0)
+            {
+                Console.WriteLine("digite um número: ");
+                num = int.Parse(Console.ReadLine());
+                Console.WriteLine("Para o terminar digite (a)");
+            }
+
             /*
             5) Faça um programa em C# que leia uma quantidade desconhecida de números 
             e conte quantos deles estão nos seguintes intervalos: 0-25, 26-50, 51-75 e 76-
