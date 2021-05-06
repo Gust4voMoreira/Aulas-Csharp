@@ -62,13 +62,26 @@ namespace aula11
             usuário.
             */
             
-            
+            int num, pri_num, seg_num = 1, ter_num = 1;
+
+            Console.WriteLine("Digite o limite: ");
+            num = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("0, 1, ");
+            for (pri_num = 1; pri_num < num; pri_num++)
+            {
+                seg_num = pri_num;
+                 pri_num;
+
+                Console.WriteLine(seg_num);
+            }
+
 
             /*
             3) - Faça um algoritmo capaz de determinar o maior número de uma sequência 
             de 10 números que deverão ser digitados pelo usuário, e apresente o resultado 
             ao final do processamento.
-            */
+            
             int num, maior = 0;
 
             for (int i = 1; i <= 10; i++)
@@ -82,9 +95,8 @@ namespace aula11
                 }
             }
             Console.WriteLine($"Maior: {maior}");
+            */
             
-            
-
             /*
             4) Faça um programa em C# que leia um número não determinado de valores, 
             calcule e escreva a média aritmética dos valores lidos, a quantidade de valores 
