@@ -103,22 +103,38 @@ namespace aula11
             calcule e escreva a média aritmética dos valores lidos, a quantidade de valores 
             positivos, a quantidade de valores negativos. O usuário que determinará o 
             término do programa.
-            */
 
-            int num, continuar, media, cont = 0;
-
+            int num, soma = 0, cont = 0, negativo = 0, positivo = 0;
+            double media;
+            char continuar;
 
             do
             {
                 Console.WriteLine("digite um número: ");
                 num = int.Parse(Console.ReadLine());
+
+                cont ++;
+                soma = soma + num;
+                if (num < 0)
+                {
+                    negativo += +1;
+                }
+                else
+                {
+                    positivo += +1;
+                }
+
                 Console.WriteLine("Para continuar digite (s) ou (S): ");
                 continuar = char.Parse(Console.ReadLine());
-                cont ++;
-                media = num / cont;
             } while (continuar == 's' || continuar == 'S');
 
+            media = soma / cont;
+
             Console.WriteLine($"Media: {media}");
+            Console.WriteLine($"Positivo: {positivo}");
+            Console.WriteLine($"Negativo: {negativo}");
+            */
+
             /*
             5) Faça um programa em C# que leia uma quantidade desconhecida de números 
             e conte quantos deles estão nos seguintes intervalos: 0-25, 26-50, 51-75 e 76-
