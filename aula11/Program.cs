@@ -175,6 +175,34 @@ namespace aula11
             números positivos. Calcule a quantidade de números pares e ímpares, a média 
             de valores pares e a média geral dos números lidos. O número que encerrará a 
             leitura será zero.
+
+            int num, qImpar = 0, qPar = 0, mPar, sPar = 0, mGeral, sGeral = 0;
+            Console.WriteLine("digite números e zero para terminar: ");
+            
+            do
+            {
+                num = int.Parse(Console.ReadLine());
+
+                if (num%2 == 0)
+                {
+                    sPar += num;
+                    qPar++;
+                }
+                else
+                {
+                    qImpar++;
+                }
+                sGeral += num;
+            } while (num != 0);
+
+            qPar --;
+            mPar = sPar / qPar;
+            mGeral = sGeral / (qPar + qImpar);
+
+            Console.WriteLine($"Quantidade de n° pares: {qPar}");
+            Console.WriteLine($"Quantidade de n° Impares: {qImpar}");
+            Console.WriteLine($"Media dos números Pares: {mPar}");
+            Console.WriteLine($"Media geral dos números: {mGeral}");
             */
         }
     }
