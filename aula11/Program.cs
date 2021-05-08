@@ -139,6 +139,35 @@ namespace aula11
             5) Faça um programa em C# que leia uma quantidade desconhecida de números 
             e conte quantos deles estão nos seguintes intervalos: 0-25, 26-50, 51-75 e 76-
             100. A entrada de dados deve terminar quando for lido um número negativo.
+
+            int num, interUm = 0, interDois = 0, interTres = 0, interQuatro = 0;
+            Console.WriteLine("digite números positivos, digite um negativo para terminar: ");
+            
+            do
+            {
+                num = int.Parse(Console.ReadLine());
+                if (num >= 0 && num <= 25)
+                {
+                    interUm++;
+                } 
+                else if (num >= 26 && num <= 50)
+                {
+                    interDois++;
+                }
+                else if (num >= 51 && num <= 75)
+                {
+                    interTres++;
+                }
+                else if (num >= 76 && num <= 100)
+                {
+                    interQuatro++;
+                }
+            } while (num >= 0);
+
+            Console.WriteLine($"Quantidade de n° no primeiro intervalo: {interUm}");
+            Console.WriteLine($"Quantidade de n° no segundo intervalo: {interDois}");
+            Console.WriteLine($"Quantidade de n° no terceiro intervalo: {interTres}");
+            Console.WriteLine($"Quantidade de n° no quarto intervalo: {interQuatro}");
             */
 
             /*
