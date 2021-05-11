@@ -6,7 +6,7 @@ namespace aula13
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hellooo World!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
