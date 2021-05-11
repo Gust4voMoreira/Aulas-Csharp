@@ -6,7 +6,22 @@ namespace aula12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hellooo World!");
+            //Data: 04/05/2021
+
+            char[] vetLetras = new char[5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"índice - {i}:");
+                vetLetras[i] = char.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("O VETOR PREENCHIDO");
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"{vetLetras[i]}|");
+            }
         }
     }
 }
