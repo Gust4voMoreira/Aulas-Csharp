@@ -130,6 +130,38 @@ namespace aula13
                 }
             }
             */
+
+            /*5) Faça um programa que o usuário preencha um vetor de 10 posições. Em seguida 
+            deverá ser impresso o maior e o menor elemento do vetor;
+
+            int[] vetNum = new int[4];
+            int menor, maior;
+
+            for (int i = 0; i < vetNum.Length; i++)
+            {
+                Console.WriteLine($"Digite um número na posição {i} do vetor:");
+                vetNum[i] = int.Parse(Console.ReadLine());
+            }
+
+            maior = vetNum[0];
+            menor = vetNum[0];
+
+            for (int i = 0; i < vetNum.Length; i++)
+            {
+                if (vetNum[i] > maior)
+                {
+                    maior = vetNum[i];
+                }
+
+                if (vetNum[i] < menor)
+                {
+                    menor = vetNum[i];
+                }
+            }
+
+            Console.WriteLine($"Maior: {maior}");
+            Console.WriteLine($"Menor: {menor}");
+            */
         }
     }
 }
