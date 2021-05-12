@@ -179,6 +179,24 @@ namespace aula13
                 Console.WriteLine($"{vetNum[i-1]}");
             }
             */
+
+            /*7) Faça um programa para ler a nota da prova de 15 alunos e armazene num vetor, 
+            calcule e imprima a média geral.
+            
+            int[] vetNum = new int[15];
+            int i;
+            float media = 0;
+
+            for (i = 0; i < vetNum.Length; i++)
+            {
+                Console.WriteLine($"Digite a nota do {i+1}° aluno: ");
+                vetNum[i] = int.Parse(Console.ReadLine());
+
+                media += vetNum[i];
+            }
+
+            Console.WriteLine($"{media/15}");
+            */
         }
     }
 }
