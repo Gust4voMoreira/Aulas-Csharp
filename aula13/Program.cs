@@ -88,6 +88,30 @@ namespace aula13
                 Console.WriteLine($"O quadrado do número {vetNum[i]} é {vetQuad[i]}");
             }
             */
+
+            /*3) Faça um programa que leia um vetor de 8 posições e, em seguida, leia também dois 
+            valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final seu programa 
+            deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.
+            
+
+            int[] vetNum = new int[3];
+            int x, y, i;
+
+            for (i = 0; i < vetNum.Length; i++)
+            {
+                Console.WriteLine($"Digite um número na posição {i} do vetor:");
+                vetNum[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("Digite a posição de X: ");
+            i = int.Parse(Console.ReadLine());
+            x = vetNum[i];
+            Console.WriteLine("Digite a posição de Y: ");
+            i = int.Parse(Console.ReadLine());
+            y = vetNum[i];
+
+            Console.WriteLine($"X: {x} e Y: {y}");
+            */
         }
     }
 }
