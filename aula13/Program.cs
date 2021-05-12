@@ -162,6 +162,23 @@ namespace aula13
             Console.WriteLine($"Maior: {maior}");
             Console.WriteLine($"Menor: {menor}");
             */
+
+            /*6) Crie um programa que lê 6 valores inteiros e, em seguida, mostre na tela os valores 
+            lidos na ordem inversa.
+
+            int[] vetNum = new int[6];
+
+            for (int i = 0; i < vetNum.Length; i++)
+            {
+                Console.WriteLine($"Digite um número na posição {i} do vetor:");
+                vetNum[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Ordem inversa");
+            for (int i = 6; i > 0; i--)
+            { 
+                Console.WriteLine($"{vetNum[i-1]}");
+            }
+            */
         }
     }
 }
