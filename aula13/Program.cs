@@ -197,6 +197,32 @@ namespace aula13
 
             Console.WriteLine($"{media/15}");
             */
+
+            /*8) Faça um programa que preencha um vetor com 10 números reais, calcule e mostre a 
+            quantidade de números negativos e a soma dos números positivos desse vetor.
+
+            double soma = 0, negativo = 0;
+            double[] vetNum = new double[4];
+            
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine("digite um número: ");
+                vetNum[i] = double.Parse(Console.ReadLine());
+
+                if (vetNum[i] > 0)
+                {
+                    soma += vetNum[i];
+                }
+                if (vetNum[i] < 0)
+                {
+                    negativo += +1;
+                }
+            }
+
+            Console.WriteLine($"Soma dos números positivos: {soma}");
+            Console.WriteLine($"Negativo: {negativo}");
+            */
         }
     }
 }
