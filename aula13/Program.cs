@@ -92,9 +92,8 @@ namespace aula13
             /*3) Faça um programa que leia um vetor de 8 posições e, em seguida, leia também dois 
             valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final seu programa 
             deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.
-            
 
-            int[] vetNum = new int[3];
+            int[] vetNum = new int[8];
             int x, y, i;
 
             for (i = 0; i < vetNum.Length; i++)
@@ -111,6 +110,25 @@ namespace aula13
             y = vetNum[i];
 
             Console.WriteLine($"X: {x} e Y: {y}");
+            */
+
+            /*4) Leia um vetor de 10 posições. Contar e escrever quantos valores pares ele possui.
+
+            int[] vetNum = new int[4];
+            int cont = 0;
+
+            for (int i = 0; i < vetNum.Length; i++)
+            {
+                Console.WriteLine($"Digite um número na posição {i} do vetor:");
+                vetNum[i] = int.Parse(Console.ReadLine());
+
+                if (vetNum[i] % 2 == 0)
+                {
+                    cont ++;
+                    Console.WriteLine($"A posição {i} é par");
+                    Console.WriteLine($"Número de Pares: {cont}");
+                }
+            }
             */
         }
     }
