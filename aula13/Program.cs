@@ -229,12 +229,74 @@ namespace aula13
             */
 
             int[] vetNum = new int[4];
+            int num;
 
             for (int i = 0; i < 4; i++)
             {
                 Console.WriteLine("digite um número: ");
-                vetNum[i] = int.Parse(Console.ReadLine());
+                num = int.Parse(Console.ReadLine());
             }
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine($"{vetNum[i]}");
+            }
+            
+            /////////////////////////////
+
+
+            /*
+             int[] cincoNum = new int[5];
+            int escolha;
+
+            for(int i = 0; i < cincoNum.Length; i++)
+            {
+                Console.Write($"\nDigite o {i + 1}º Número: ");
+                cincoNum[i] = int.Parse(Console.ReadLine());
+
+            }do
+            {
+                Console.Write("\n\t( 0 )Encerrar o programa\n\t( 1 ) Mostra Vetor na ordem direta\n\t( 2 ) Mostrar Vetor na ordem inversa  ");
+                
+                Console.Write("\n\nEscolha Um Opcão: ");
+                 escolha = int.Parse(Console.ReadLine());
+
+                
+                if(escolha != 1 && escolha != 2 && escolha != 0)
+                {
+                    Console.Write("Incorreto, pressione para tentar novamente...");
+                    Console.ReadKey();
+                    Console.Clear();
+                }
+                
+            }while(escolha != 1 && escolha != 2 && escolha !=0 );
+
+             if(escolha == 0)
+                {
+                    Console.Write("\nPrograma Encerrado...");
+                    Console.ReadKey();
+                }
+            
+             switch(escolha)
+             {
+                 case 1:
+                  Console.WriteLine("\nVetor na forma Direta");
+                 for(int i = 0; i < cincoNum.Length; i++)
+                 {
+                     Console.Write($"{cincoNum[i]} |");
+                 }
+                 break;
+                 
+                 case 2:
+                 Console.WriteLine("\nVetor na forma inversa");
+                 for(int i = 4; i >= 0; i--)
+                 {
+                     Console.Write($"{cincoNum[i]} |");
+                 }
+
+                 break;
+             }
+             */
         }
     }
 }
