@@ -223,6 +223,18 @@ namespace aula13
             Console.WriteLine($"Soma dos números positivos: {soma}");
             Console.WriteLine($"Negativo: {negativo}");
             */
+
+            /*10) Leia um vetor com 20 números inteiros. Escreva os elementos do vetor eliminando 
+            elementos repetidos.
+            */
+
+            int[] vetNum = new int[4];
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine("digite um número: ");
+                vetNum[i] = int.Parse(Console.ReadLine());
+            }
         }
     }
 }
