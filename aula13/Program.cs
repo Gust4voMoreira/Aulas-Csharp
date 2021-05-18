@@ -92,7 +92,7 @@ namespace aula13
             /*3) Faça um programa que leia um vetor de 8 posições e, em seguida, leia também dois 
             valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final seu programa 
             deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.
-            */
+    
             int[] vetNum = new int[8];
             int x, y, i;
 
@@ -109,8 +109,8 @@ namespace aula13
                 y = int.Parse(Console.ReadLine());
             } while (x < 0 || x > 7 || y < 0 || y > 7);
 
-            Console.WriteLine($"A soma de {vetNum[x]} + {vetNum[y]} = ");
-            
+            Console.WriteLine($"A soma de {vetNum[x]} + {vetNum[y]} = {vetNum[x] + vetNum[y]}");
+            */
 
             /*4) Leia um vetor de 10 posições. Contar e escrever quantos valores pares ele possui.
 
@@ -133,8 +133,8 @@ namespace aula13
 
             /*5) Faça um programa que o usuário preencha um vetor de 10 posições. Em seguida 
             deverá ser impresso o maior e o menor elemento do vetor;
-
-            int[] vetNum = new int[4];
+            
+            int[] vetNum = new int[10];
             int menor, maior;
 
             for (int i = 0; i < vetNum.Length; i++)
@@ -226,7 +226,7 @@ namespace aula13
 
             /*9) Faça um programa que leia um vetor de 10 posições e verifique se existem valores iguais e os escreva na tela.  
             */
-
+            
 
             /*10) Leia um vetor com 20 números inteiros. Escreva os elementos do vetor eliminando 
             elementos repetidos.
