@@ -69,7 +69,7 @@ namespace aula13
             /*2)Faça um algoritmo que leia um conjunto de números inteiros, armazenando-o em 
             vetor e calcular o quadrado das componentes deste vetor, armazenando o resultado em 
             outro vetor. Cada vetor tem 10 elementos cada. Mostrar os valores dos dois vetores.
-
+        
             int[] vetNum = new int[10];
             int[] vetQuad = new int[10];
 
@@ -92,7 +92,7 @@ namespace aula13
             /*3) Faça um programa que leia um vetor de 8 posições e, em seguida, leia também dois 
             valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final seu programa 
             deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.
-
+            */
             int[] vetNum = new int[8];
             int x, y, i;
 
@@ -102,15 +102,15 @@ namespace aula13
                 vetNum[i] = int.Parse(Console.ReadLine());
             }
 
-            Console.WriteLine("Digite a posição de X: ");
-            i = int.Parse(Console.ReadLine());
-            x = vetNum[i];
-            Console.WriteLine("Digite a posição de Y: ");
-            i = int.Parse(Console.ReadLine());
-            y = vetNum[i];
+            do
+            {
+                Console.WriteLine("Digite dois números de 0 a 7");
+                x = int.Parse(Console.ReadLine());
+                y = int.Parse(Console.ReadLine());
+            } while (x < 0 || x > 7 || y < 0 || y > 7);
 
-            Console.WriteLine($"X: {x} e Y: {y}");
-            */
+            Console.WriteLine($"A soma de {vetNum[x]} + {vetNum[y]} = ");
+            
 
             /*4) Leia um vetor de 10 posições. Contar e escrever quantos valores pares ele possui.
 
@@ -223,6 +223,10 @@ namespace aula13
             Console.WriteLine($"Soma dos números positivos: {soma}");
             Console.WriteLine($"Negativo: {negativo}");
             */
+
+            /*9) Faça um programa que leia um vetor de 10 posições e verifique se existem valores iguais e os escreva na tela.  
+            */
+
 
             /*10) Leia um vetor com 20 números inteiros. Escreva os elementos do vetor eliminando 
             elementos repetidos.
