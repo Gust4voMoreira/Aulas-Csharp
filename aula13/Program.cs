@@ -225,9 +225,26 @@ namespace aula13
             */
 
             /*9) Faça um programa que leia um vetor de 10 posições e verifique se existem valores iguais e os escreva na tela.  
+            
+            int [] vetNum = new int[10];
+
+            for (int i = 0; i < vetNum.Length; i++)
+            {
+                vetNum[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("os números que repete no vetor");
+            for (int i = 0; i < vetNum.Length; i++)
+            {
+                for (int j = i + 1; j < vetNum.Length; j++)
+                {
+                    if (vetNum[i] == vetNum[j])
+                    {
+                        Console.WriteLine(vetNum[i]);
+                    }
+                }
+            }
             */
             
-
             /*10) Leia um vetor com 20 números inteiros. Escreva os elementos do vetor eliminando 
             elementos repetidos.
             */
