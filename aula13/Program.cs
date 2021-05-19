@@ -244,12 +244,38 @@ namespace aula13
                 }
             }
             */
-            
+
             /*10) Leia um vetor com 20 números inteiros. Escreva os elementos do vetor eliminando 
             elementos repetidos.
+            
+            int[] vetNum = new int[10];
+            int cont;
+
+            for (int i = 0; i < vetNum.Length; i++)
+            {
+                vetNum[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("os números que repete no vetor");
+            for (int i = 0; i < vetNum.Length; i++)
+            {
+                cont = 0;
+                for (int j = i + 1; j < vetNum.Length; j++)
+                {
+                    if (i != j)
+                    {
+                        if (vetNum[i] == vetNum[j])
+                        {
+                            cont++;
+                        }
+                    }
+                }
+                if (cont == 0)
+                {
+                    Console.WriteLine(vetNum[i]);
+                }
+            }
             */
-
-
+            
             /*11) Faça um programa que leia um vetor de 5 posições para números reais e, depois, 
             um código inteiro. Se o código for zero, finalize o programa; se for 1, mostre o vetor na 
             ordem direta; se for 2, mostre o vetor na ordem inversa. Caso, o código for diferente de 
