@@ -255,11 +255,11 @@ namespace aula13
             {
                 vetNum[i] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine("os números que repete no vetor");
+            Console.WriteLine("Os números que não se repete no vetor");
             for (int i = 0; i < vetNum.Length; i++)
             {
                 cont = 0;
-                for (int j = i + 1; j < vetNum.Length; j++)
+                for (int j = 0; j < vetNum.Length; j++)
                 {
                     if (i != j)
                     {
@@ -275,7 +275,7 @@ namespace aula13
                 }
             }
             */
-            
+
             /*11) Faça um programa que leia um vetor de 5 posições para números reais e, depois, 
             um código inteiro. Se o código for zero, finalize o programa; se for 1, mostre o vetor na 
             ordem direta; se for 2, mostre o vetor na ordem inversa. Caso, o código for diferente de 
