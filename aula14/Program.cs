@@ -7,15 +7,16 @@ namespace aula14
         static void Main(string[] args)
         {
             //Data: 25/05/2021
-            for (int i = 0; i <= 10; i++)
+            //1)
+            for (int i = 2; i <= 10; i++)
             {
-                for (int u = 0; u < 11; u++)
-                {
-                    Console.WriteLine($"{i} x {u} = {Mult(i,2)}");
-                }
+               for (int y = 1; y <= 10; y++)
+               {
+                   Console.WriteLine($"{i} x {y} = {Mult(i,y)}");
+               }
+               Console.WriteLine();
             }
         }
-
         static int Mult(int x, int y)
         {
             return x * y;
