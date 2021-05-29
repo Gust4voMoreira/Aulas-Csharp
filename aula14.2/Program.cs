@@ -26,8 +26,8 @@ namespace aula14._2
             Console.WriteLine("Números do vetor:");
             var qtdN = pVetor(qtd);
             imprimir(qtdN);
-            mSoma(qtd);
             
+           
         }
 
         static int[] pVetor(int qtd)
@@ -40,24 +40,6 @@ namespace aula14._2
                 vetQtd[i] = int.Parse(Console.ReadLine());
             }
             return vetQtd;
-        }
-
-        static int fullSoma(int qtd)
-        {
-            int[] vetQtd = new int[qtd];
-            int soma = 0;
-
-            for (int i = 0; i < vetQtd.Length; i++)
-            {
-                return soma += vetQtd[i];
-            }
-        }
-
-        static void mSoma(int qtd)
-        {
-
-            Console.WriteLine($"Soma total: ");
-            Console.Write($"{fullSoma()}");
         }
 
         static void imprimir(int[] qtdN)
