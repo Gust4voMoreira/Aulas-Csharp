@@ -12,7 +12,20 @@ namespace aula15._2
         */
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            float x1, x2, y1, y2;
+
+            Console.WriteLine("digite: ");
+            num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("digite: ");
+            num2 = int.Parse(Console.ReadLine());
+
+            menor = retMenor(num1, num2);
+            maior = retMaior(num1, num2);
+        }
+
+        static float calcDist(float x1, float y1, float x2, float y2)
+        {
+            return 0;
         }
     }
 }
