@@ -42,13 +42,14 @@ namespace aula14._2
             return vetQtd;
         }
 
-        static void imprimir(int[] qtdN)
-        {
-            for (int i = 0; i < qtdN.Length; i++)
-            {
-                Console.Write($" {qtdN[i]} |");
-            }
-            Console.WriteLine();
-        }
+        // static void imprimir(int[] qtdN)
+        // {
+        //     for (int i = 0; i < qtdN.Length; i++)
+        //     {
+        //         Console.Write($" {qtdN[i]} |");
+        //     }
+        //     Console.WriteLine();
+        // }
+
     }
 }
