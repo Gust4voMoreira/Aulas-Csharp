@@ -25,7 +25,7 @@ namespace aula14._2
             qtd = int.Parse(Console.ReadLine()); 
             Console.WriteLine("Números do vetor:");
             var qtdN = pVetor(qtd);
-            imprimir(qtdN);
+            //imprimir(qtdN);
             
            
         }
