@@ -13,7 +13,30 @@ namespace aula15._4
         */
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int numero, total;
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Digite o {i + 1}° número");
+                numero = int.Parse(Console.ReadLine());
+                total = somaDiv(numero);
+                Console.WriteLine($"A soma dos divisores de {numero} é {total}");
+                Console.WriteLine();
+            } 
+        }
+
+        static int somaDiv(int num)
+        {
+            int soma = 0;
+
+            for (int i = 1; i < num; i++)
+            {
+                if (num % i == 0)
+                {
+                    soma += i;
+                }
+            }
+            return soma;
         }
     }
 }
