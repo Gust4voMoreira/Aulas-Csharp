@@ -28,7 +28,7 @@ namespace aula15._2
             Console.WriteLine($"Distância: {distancia}");
         }
 
-        static float calcDist(float x1, float y1, float x2, float y2)
+        static float calcDist(float x1, float x2, float y1, float y2)
         {
             float a, b, c, d;
             a = x2 - x1;
