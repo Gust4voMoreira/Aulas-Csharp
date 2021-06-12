@@ -10,7 +10,7 @@ namespace aula15
         retorne o menor número.
 
         2) Faça um programa em c# que tenha uma função que receba dois números inteiros 
-        retorne o maior número.
+        retorne o maior e o menor número.
         */
         static void Main(string[] args)
         {
