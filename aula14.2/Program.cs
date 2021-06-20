@@ -21,24 +21,28 @@ namespace aula14._2
 
             Console.WriteLine("Digite a quatidade de números do vetor: ");
             int qtd = int.Parse(Console.ReadLine()); 
-
-            Console.WriteLine("Números do vetor:");
             var vetor1 = pVetor(qtd);
+
             Console.WriteLine("////////////////////");
+            Console.WriteLine("Números do vetor: ");
             imprimir(vetor1);
+            Console.WriteLine("////////////////////");
+            Console.WriteLine("Soma dos números do vetor: ");
+            //float vetor2 = SomaVetor(pVetor(qtd));
+            //imprimir();
         }
-        static int[] pVetor(int qtd)
+        static float[] pVetor(int qtd)
         {
-            int [] VetInt = new int [qtd];
-            for (int i = 0; i < VetInt.Length; i++)
+            float [] Vetfloat = new float [qtd];
+            for (int i = 0; i < Vetfloat.Length; i++)
             {
                 Console.WriteLine($"Digite o {i + 1}° valor: ");
-                VetInt[i] = int.Parse(Console.ReadLine());
+                Vetfloat[i] = float.Parse(Console.ReadLine());
             }
-            return VetInt;
+            return Vetfloat;
         }
 
-        static void imprimir(int[] pVetor)
+        static void imprimir(float[] pVetor)
         {
             for (int i = 0; i < pVetor.Length; i++)
             {
@@ -46,5 +50,7 @@ namespace aula14._2
             }
             Console.WriteLine();
         }
+
+        
     }
 }
