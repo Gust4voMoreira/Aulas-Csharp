@@ -19,37 +19,32 @@ namespace aula14._2
             Obs: Esse método será utilizado para imprimir todos retornos das funções;
             */
 
-            int qtd;
-
             Console.WriteLine("Digite a quatidade de números do vetor: ");
-            qtd = int.Parse(Console.ReadLine()); 
-            Console.WriteLine("Números do vetor:");
-            var qtdN = pVetor(qtd);
-            //imprimir(qtdN);
-            
-           
-        }
+            int qtd = int.Parse(Console.ReadLine()); 
 
+            Console.WriteLine("Números do vetor:");
+            var vetor1 = pVetor(qtd);
+            Console.WriteLine("////////////////////");
+            imprimir(vetor1);
+        }
         static int[] pVetor(int qtd)
         {
-            int[] vetQtd = new int[qtd];
-
-            for (int i = 0; i < vetQtd.Length; i++)
+            int [] VetInt = new int [qtd];
+            for (int i = 0; i < VetInt.Length; i++)
             {
-                Console.WriteLine($"Digite o {i + 1}° número: ");
-                vetQtd[i] = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Digite o {i + 1}° valor: ");
+                VetInt[i] = int.Parse(Console.ReadLine());
             }
-            return vetQtd;
+            return VetInt;
         }
 
-        // static void imprimir(int[] qtdN)
-        // {
-        //     for (int i = 0; i < qtdN.Length; i++)
-        //     {
-        //         Console.Write($" {qtdN[i]} |");
-        //     }
-        //     Console.WriteLine();
-        // }
-
+        static void imprimir(int[] pVetor)
+        {
+            for (int i = 0; i < pVetor.Length; i++)
+            {
+                Console.Write($" {pVetor[i]} |");
+            }
+            Console.WriteLine();
+        }
     }
 }
