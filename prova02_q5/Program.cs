@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace provao2_q5
+namespace prova02_q5
 {
     class Program
     {
         static void Main(string[] args)
         {
-           /*
-           Faça um programa em c# que leia 5 números inteiros positivos (utilize uma função que leia esse 
+            /*
+           5)Faça um programa em c# que leia 5 números inteiros positivos (utilize uma função que leia esse 
            número e verifique se ele é positivo). Para cada número informado escrever a soma de seus 
            divisores (exceto ele mesmo). 
            Utilize a função SomaDivisores para obter a soma. 

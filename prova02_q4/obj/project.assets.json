@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\provao2_q5\\provao2_q5.csproj",
-      "projectName": "provao2_q5",
-      "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\provao2_q5\\provao2_q5.csproj",
+      "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\prova02_q4\\prova02_q4.csproj",
+      "projectName": "prova02_q4",
+      "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\prova02_q4\\prova02_q4.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\provao2_q5\\obj\\",
+      "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\prova02_q4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config"
