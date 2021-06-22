@@ -20,7 +20,6 @@ namespace aula16
 
             {
                 vet[i] = int.Parse(Console.ReadLine());
-
             }
             return vet;
         }

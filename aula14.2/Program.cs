@@ -20,7 +20,7 @@ namespace aula14._2
             */
 
             Console.WriteLine("Digite a quatidade de números do vetor: ");
-            int qtd = int.Parse(Console.ReadLine()); 
+            int qtd = int.Parse(Console.ReadLine());
             var vetor1 = pVetor(qtd);
 
             Console.WriteLine("////////////////////");
@@ -33,7 +33,7 @@ namespace aula14._2
         }
         static float[] pVetor(int qtd)
         {
-            float [] Vetfloat = new float [qtd];
+            float[] Vetfloat = new float[qtd];
             for (int i = 0; i < Vetfloat.Length; i++)
             {
                 Console.WriteLine($"Digite o {i + 1}° valor: ");
@@ -48,9 +48,17 @@ namespace aula14._2
             {
                 Console.Write($" {pVetor[i]} |");
             }
-            Console.WriteLine();
         }
 
-        
+        static int somaDiv(float[] pVetor, int num)
+        {
+            float[] soma = new float[num];
+
+            for (int i = 1; i < num; i++)
+            {
+                soma[i] += pVetor[i];   
+            }
+            return 0;
+        }
     }
 }
