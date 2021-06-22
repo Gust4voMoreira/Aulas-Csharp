@@ -19,23 +19,26 @@ namespace aula15._4
             {
                 Console.WriteLine($"Digite o {i + 1}° número");
                 numero = int.Parse(Console.ReadLine());
-                total = somaDiv(numero);
+                total = somaDivisores(numero);
                 Console.WriteLine($"A soma dos divisores de {numero} é {total}");
                 Console.WriteLine();
-            } 
+            }
         }
 
-        static int somaDiv(int num)
+        static int somaDivisores(int num)
         {
             int soma = 0;
-
-            for (int i = 1; i < num; i++)
+            while (num > 0)
             {
-                if (num % i == 0)
+                 for (int i = 1; i < num; i++)
                 {
-                    soma += i;
+                    if (num % i == 0)
+                    {
+                        soma += i;
+                    }
                 }
-            }
+            }    
+
             return soma;
         }
     }
