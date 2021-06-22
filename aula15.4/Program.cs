@@ -28,16 +28,14 @@ namespace aula15._4
         static int somaDivisores(int num)
         {
             int soma = 0;
-            while (num > 0)
-            {
-                 for (int i = 1; i < num; i++)
+            
+                for (int i = 1; i < num; i++)
                 {
                     if (num % i == 0)
                     {
                         soma += i;
                     }
                 }
-            }    
 
             return soma;
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\prova02\\prova02.csproj": {}
+    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\provao2_q5\\provao2_q5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\prova02\\prova02.csproj": {
+    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\provao2_q5\\provao2_q5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\prova02\\prova02.csproj",
-        "projectName": "prova02",
-        "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\prova02\\prova02.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\provao2_q5\\provao2_q5.csproj",
+        "projectName": "provao2_q5",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\provao2_q5\\provao2_q5.csproj",
         "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\prova02\\obj\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\provao2_q5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config"
