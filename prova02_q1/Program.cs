@@ -12,15 +12,43 @@ namespace prova02_q1
             */
         static void Main(string[] args)
         {
-            int[] vetor = new int[10];
+            int[] vetor = new int[2];
 
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine($"Digite o {i+1}° número: ");
-                vetor[i] = int.Parse(Console.ReadLine());  
-            }
+            var notP1 = fVetor(2);
+       
+            //var vetMaior = fMaior(notP1);
         }
 
+        static int[] fVetor(int vet1)
+        {
+            int[] vetor = new int[vet1];
+
+            for (int i = 0; i < vet1; i++)
+            {
+                Console.WriteLine($"Digite a nota da prova parcial do {i+1}° aluno: ");
+                vetor[i] = int.Parse(Console.ReadLine());
+            }
+            return vetor;
+        }
+
+        // static int[] fMaior(int [] vet)
+        // {
+        //     int maior = vet[0];
+
+        //     for (int i = 0; i < 2; i++)
+        //     {
+        //         if (vet[i] > maior)
+        //         {
+        //             maior = vet[i];
+        //         }
+        //     }
+        //     return maior;
+        // }
+
+        static void imprimir(int vetM)
+        {
+            Console.WriteLine($"Maior: {vetM}");
+        }
         //aula13 ex: 5
     }
 }

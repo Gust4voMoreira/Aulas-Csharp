@@ -133,7 +133,7 @@ namespace aula13
 
             /*5) Faça um programa que o usuário preencha um vetor de 10 posições. Em seguida 
             deverá ser impresso o maior e o menor elemento do vetor;
-            
+            */
             int[] vetNum = new int[10];
             int menor, maior;
 
@@ -161,7 +161,7 @@ namespace aula13
 
             Console.WriteLine($"Maior: {maior}");
             Console.WriteLine($"Menor: {menor}");
-            */
+            
 
             /*6) Crie um programa que lê 6 valores inteiros e, em seguida, mostre na tela os valores 
             lidos na ordem inversa.
