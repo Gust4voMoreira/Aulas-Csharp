@@ -4,9 +4,7 @@ namespace prova02_q5
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            /*
+        /*
             5)Faça um programa em c# que leia 5 números inteiros positivos (utilize uma função que leia esse 
             número e verifique se ele é positivo). Para cada número informado escrever a soma de seus 
             divisores (exceto ele mesmo). 
@@ -17,6 +15,8 @@ namespace prova02_q5
             Saída: A soma dos divisores. 
             Exemplo: Para o valor 8: 1+2+4 = 7
             */
+        static void Main(string[] args)
+        {
             int numero, total;
 
             for (int i = 0; i < 5; i++)

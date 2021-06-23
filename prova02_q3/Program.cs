@@ -4,8 +4,6 @@ namespace prova02_q3
 {
     class Program
     {
-        static void Main(string[] args)
-        {
             /*
             3)Faça um programa que leia dois vetores de 10 posições. O primeiro vetor corresponde as notas da 
             prova parcial de dez alunos. O segundo vetor as notas da prova oficial dos mesmos dez alunos. 
@@ -15,36 +13,52 @@ namespace prova02_q3
             Obs: A nota vai de 0 a 10. Não é permitido a entrada de outro valor.
             */
             //não precisa de função
-
-            var vet1 = new float[3];
-            var vet2 = new float[3];
+        static void Main(string[] args)
+        {
             var media = new float[3];
 
+            var notP1 = fVetor1(3);
+            var notP2 = fVetor1(3);
+            
+            imprimir(notP1, notP2);
+            
             for (int i = 0; i < 3; i++)
             {
-                Console.Write($"Digite a nota da prova parcial do {i+1}° aluno: ");
-                vet1[i] = int.Parse(Console.ReadLine());   
-            }
-
-            for (int i = 0; i < 3; i++)
-            {
-                Console.Write($"Digite a nota da prova oficial do {i+1}° aluno: ");
-                vet2[i] = int.Parse(Console.ReadLine());   
-            }
-
-            for (int i = 0; i < 3; i++)
-            {
-                media[i] = ;
-                Console.WriteLine($"A média é: {media[i]}");   
+                media[i] = ((notP1[i] * 2) + (notP2[i] * 8)) / 10;
+                Console.WriteLine($"A média do {i+1}° aluno é: {media[i]}");   
             }
         }
 
-        // static void Imprimir(int vet)
-        // {
-        //     for (int i = 0; i < vet; i++)
-        //     {
-        //         Console.Write($"{i+1}° aluno, nota da prova Parcial {vet1[i]}: ");
-        //     }
-        // }        
+        static float[] fVetor1(int vet1)
+        {
+            float[] vetor1 = new float[vet1];
+
+            for (int i = 0; i < vetor1.Length; i++)
+            {
+                Console.WriteLine($"Digite a nota da prova parcial do {i+1}° aluno: ");
+                vetor1[i] = float.Parse(Console.ReadLine());
+            }
+            return vetor1;
+        }
+
+        static float[] fVetor2(int vet2)
+        {
+            float[] vetor2 = new float[vet2];
+
+            for (int i = 0; i < vetor2.Length; i++)
+            {
+                Console.WriteLine($"Digite a nota da prova oficial do {i+1}° aluno: ");
+                vetor2[i] = float.Parse(Console.ReadLine());
+            }
+            return vetor2;
+        } 
+
+        static void imprimir(float[] vetNotas1, float[] vetNotas2)
+        {
+            for (int i = 0; i < vetNotas1.Length; i++)
+            {
+                Console.WriteLine($"{i+1}° aluno, nota da prova Parcial: {vetNotas1[i]}, prova Oficial: {vetNotas2[i]}");
+            }
+        }
     }
 }

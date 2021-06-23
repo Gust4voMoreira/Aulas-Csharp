@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula05\\aula07.csproj": {}
+    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aula05\\aula07.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula05\\aula07.csproj": {
+    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aula05\\aula07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula05\\aula07.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aula05\\aula07.csproj",
         "projectName": "aula07",
-        "projectPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula05\\aula07.csproj",
-        "packagesPath": "C:\\Users\\dados\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dados\\OneDrive\\Documentos\\MeusProjetos\\Aulas-Csharp\\aula05\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aula05\\aula07.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aula05\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dados\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
