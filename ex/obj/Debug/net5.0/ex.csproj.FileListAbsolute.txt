@@ -1,0 +1,16 @@
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\bin\Debug\net5.0\ex.exe
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\bin\Debug\net5.0\ex.deps.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\bin\Debug\net5.0\ex.runtimeconfig.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\bin\Debug\net5.0\ex.runtimeconfig.dev.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\bin\Debug\net5.0\ex.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\bin\Debug\net5.0\ref\ex.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\bin\Debug\net5.0\ex.pdb
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ex.csprojAssemblyReference.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ex.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ex.AssemblyInfo.cs
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ex.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ex.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ref\ex.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ex.pdb
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex\obj\Debug\net5.0\ex.genruntimeconfig.cache

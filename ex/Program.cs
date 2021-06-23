@@ -1,15 +1,9 @@
 ﻿using System;
 
-namespace prova02_q1
+namespace ex
 {
     class Program
     {
-        /*
-        1)Faça um programa que leia um vetor de 10 posições com números inteiros positivos. Esse programa 
-        deverá ter uma função que retorne o maior número do vetor e outra função que retorne a média dos 
-        números do vetor.
-        Obs.: Não permitir a entrada de números menor ou igual a zero.
-        */
         static void Main(string[] args)
         {
             int[] vetNum = new int[5];
@@ -21,33 +15,34 @@ namespace prova02_q1
 
                 if (vetNum[i] <= 0)
                 {
-                    Console.Write("\nDigite números maiores que 0: ");
+                    Console.Write("\nDigite numeros maiores que 0, Pressione Para Continuar");
                     Console.ReadKey();
                     Console.Clear();
 
                     i = i - 1;
                 }
             }
-            var vetMaior = Maior(vetNum);
-            var vetMedia = Media(vetNum);
+            var maNum = MaioNum(vetNum);
+            var media = MediaNum(vetNum);
         }
 
-        static int[] Maior(int[] vetNum)
+        static int[] MaioNum(int[] vetNum)
         {
             int maior = 0;
             for (int i = 0; i < vetNum.Length; i++)
             {
+
                 if (vetNum[i] > maior)
                 {
                     maior = vetNum[i];
                 }
             }
-            Console.Write($"\nMaior número: {maior} ");
+            Console.Write($"\nO maior número digitado é: {maior} ");
 
             return vetNum;
         }
 
-        static int[] Media(int[] vetNum)
+        static int[] MediaNum(int[] vetNum)
         {
             float media = 0, soma = 0, cont = 0;
             for (int i = 0; i < vetNum.Length; i++)
@@ -58,7 +53,7 @@ namespace prova02_q1
 
             media = (float)soma / cont;
 
-            Console.Write($"\nMédia dos números: {media} ");
+            Console.Write($"\nA média dos números digitados é: {media} ");
 
             return vetNum;
         }
