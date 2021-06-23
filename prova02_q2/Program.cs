@@ -14,16 +14,17 @@ namespace prova02_q2
             Console.WriteLine("Digite a quatidade de números dos vetores: ");
             int qtd = int.Parse(Console.ReadLine());
 
+            var media = new float[qtd];
             var vetor1 = fVetor1(qtd);
             var vetor2 = fVetor2(qtd);
 
             imprimir(vetor1);
             imprimir(vetor2);
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < qtd; i++)
             {
-                media[i] = notP1[i] * notP2[i];
-                Console.WriteLine($"A média do {i+1}° aluno é: {media[i]}");   
+                media[i] = vetor1[i] * vetor2[i];
+                Console.WriteLine($"\n{vetor1[i]} X {vetor2[i]} = {media[i]}");   
             }
         }
 

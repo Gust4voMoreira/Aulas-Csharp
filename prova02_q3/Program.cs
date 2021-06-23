@@ -15,14 +15,14 @@ namespace prova02_q3
             //não precisa de função
         static void Main(string[] args)
         {
-            var media = new float[3];
+            var media = new float[10];
 
-            var notP1 = fVetor1(3);
-            var notP2 = fVetor1(3);
+            var notP1 = fVetor1(10);
+            var notP2 = fVetor1(10);
             
             imprimir(notP1, notP2);
             
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 10; i++)
             {
                 media[i] = ((notP1[i] * 2) + (notP2[i] * 8)) / 10;
                 Console.WriteLine($"A média do {i+1}° aluno é: {media[i]}");   
