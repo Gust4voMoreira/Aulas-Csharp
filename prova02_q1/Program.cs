@@ -16,14 +16,12 @@ namespace prova02_q1
 
             for (int i = 0; i < vetNum.Length; i++)
             {
-                Console.Write($"Digite o {i + 1}º Numéro: ");
+                Console.Write($"\nDigite o {i + 1}º Numéro: ");
                 vetNum[i] = int.Parse(Console.ReadLine());
 
                 if (vetNum[i] <= 0)
                 {
-                    Console.Write("\nDigite números maiores que 0: ");
-                    Console.ReadKey();
-                    Console.Clear();
+                    Console.Write("\nDigite números maiores que 0. ");
 
                     i = i - 1;
                 }
