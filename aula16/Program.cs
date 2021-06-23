@@ -17,7 +17,6 @@ namespace aula16
             var vet = new int[qtd];
 
             for (int i = 0; i < vet.Length; i++)
-
             {
                 vet[i] = int.Parse(Console.ReadLine());
             }

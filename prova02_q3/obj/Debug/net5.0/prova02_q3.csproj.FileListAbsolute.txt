@@ -1,0 +1,16 @@
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\prova02_q3.csprojAssemblyReference.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\prova02_q3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\prova02_q3.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\prova02_q3.AssemblyInfo.cs
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\prova02_q3.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\bin\Debug\net5.0\prova02_q3.exe
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\bin\Debug\net5.0\prova02_q3.deps.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\bin\Debug\net5.0\prova02_q3.runtimeconfig.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\bin\Debug\net5.0\prova02_q3.runtimeconfig.dev.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\bin\Debug\net5.0\prova02_q3.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\bin\Debug\net5.0\ref\prova02_q3.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\bin\Debug\net5.0\prova02_q3.pdb
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\prova02_q3.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\ref\prova02_q3.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\prova02_q3.pdb
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\prova02_q3\obj\Debug\net5.0\prova02_q3.genruntimeconfig.cache

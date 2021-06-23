@@ -7,16 +7,16 @@ namespace prova02_q5
         static void Main(string[] args)
         {
             /*
-           5)Faça um programa em c# que leia 5 números inteiros positivos (utilize uma função que leia esse 
-           número e verifique se ele é positivo). Para cada número informado escrever a soma de seus 
-           divisores (exceto ele mesmo). 
-           Utilize a função SomaDivisores para obter a soma. 
-           Nome: SomaDivisores 
-           Descrição: Calcula a soma dos divisores do número informado (exceto ele mesmo). 
-           Entrada: Um número inteiro e positivo. 
-           Saída: A soma dos divisores. 
-           Exemplo: Para o valor 8: 1+2+4 = 7
-           */
+            5)Faça um programa em c# que leia 5 números inteiros positivos (utilize uma função que leia esse 
+            número e verifique se ele é positivo). Para cada número informado escrever a soma de seus 
+            divisores (exceto ele mesmo). 
+            Utilize a função SomaDivisores para obter a soma. 
+            Nome: SomaDivisores 
+            Descrição: Calcula a soma dos divisores do número informado (exceto ele mesmo). 
+            Entrada: Um número inteiro e positivo. 
+            Saída: A soma dos divisores. 
+            Exemplo: Para o valor 8: 1+2+4 = 7
+            */
             int numero, total;
 
             for (int i = 0; i < 5; i++)
@@ -35,7 +35,7 @@ namespace prova02_q5
 
             for (int i = 1; i < num; i++)
             {
-                if (num > 0)
+                if (num % i == 0)
                 {
                     soma += i;
                 }

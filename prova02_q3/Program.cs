@@ -15,6 +15,36 @@ namespace prova02_q3
             Obs: A nota vai de 0 a 10. Não é permitido a entrada de outro valor.
             */
             //não precisa de função
+
+            var vet1 = new float[3];
+            var vet2 = new float[3];
+            var media = new float[3];
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.Write($"Digite a nota da prova parcial do {i+1}° aluno: ");
+                vet1[i] = int.Parse(Console.ReadLine());   
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.Write($"Digite a nota da prova oficial do {i+1}° aluno: ");
+                vet2[i] = int.Parse(Console.ReadLine());   
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                media[i] = ;
+                Console.WriteLine($"A média é: {media[i]}");   
+            }
         }
+
+        // static void Imprimir(int vet)
+        // {
+        //     for (int i = 0; i < vet; i++)
+        //     {
+        //         Console.Write($"{i+1}° aluno, nota da prova Parcial {vet1[i]}: ");
+        //     }
+        // }        
     }
 }
