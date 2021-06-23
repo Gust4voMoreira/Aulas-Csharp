@@ -14,6 +14,7 @@ namespace prova02_q3
             programa deverá mostrar as notas da prova parcial, da prova oficial e a média dos alunos.
             Obs: A nota vai de 0 a 10. Não é permitido a entrada de outro valor.
             */
+            //não precisa de função
         }
     }
 }

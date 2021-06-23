@@ -18,11 +18,12 @@ namespace prova02_q5
            Exemplo: Para o valor 8: 1+2+4 = 7
            */
             int numero, total;
-            //COLOCA AQUI A CONDIÇÃO PARA NUM POSITIVO
+
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"Digite o {i + 1}° número");
                 numero = int.Parse(Console.ReadLine());
+
                 total = somaDivisores(numero);
                 Console.WriteLine($"A soma dos divisores de {numero} é {total}");
                 Console.WriteLine();
@@ -34,7 +35,7 @@ namespace prova02_q5
 
             for (int i = 1; i < num; i++)
             {
-                if (num % i == 0)
+                if (num > 0)
                 {
                     soma += i;
                 }
