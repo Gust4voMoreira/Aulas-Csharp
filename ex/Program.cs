@@ -14,14 +14,15 @@ namespace ex
             */
         static void Main(string[] args)
         {
-            int tamanho = 5;//10
+            int tamanho = 10;//10
 
             Console.WriteLine("//////////PARCIAL////////////");
             var vet1 = vetUm(tamanho);
             Console.WriteLine("//////////OFICIAL////////////");
             var vet2 = vetDois(tamanho);
             Console.WriteLine("//////////MÉDIA////////////");
-            var vetM = vetMedia(tamanho,vet1, vet2);
+            var vetM = vetMedia(tamanho, vet1, vet2);
+            imprimir(vetM, vet1, vet2);
         }
 
         static float[] vetUm(int tamanho)
@@ -54,16 +55,16 @@ namespace ex
 
             for (int i = 0; i < tamanho; i++)
             {
-                vetNum[i] = vet1[i] * vet2[i];
+                vetNum[i] = ((vet1[i] * 2) + (vet2[i] * 8)) / 100;
             }
             return vetNum;
         }
 
-        static void imprimir(int[] mult, int[] vetNum1, int[] vetNum2)
+        static void imprimir(float[] vetM, float[] vet1, float[] vet2)
         {
-            for (int i = 0; i < mult.Length; i++)
+            for (int i = 0; i < vet1.Length; i++)
             {
-                Console.WriteLine($"{vetNum1[i]} X {vetNum2[i]} = {mult[i]}");
+                Console.WriteLine($"Notas do {i+1}° aluno: \nPARCIAL: {vet1[i]/10}\nOFICIAL: {vet2[i]/10}\nMÉDIA: {vetM[i].ToString("N1")}");
             }
         }
     }
