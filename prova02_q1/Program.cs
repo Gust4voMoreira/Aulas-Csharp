@@ -12,7 +12,7 @@ namespace prova02_q1
         */
         static void Main(string[] args)
         {
-            int[] vetNum = new int[5];
+            int[] vetNum = new int[10];
 
             for (int i = 0; i < vetNum.Length; i++)
             {
