@@ -4,63 +4,19 @@ namespace ex
 {
     class Program
     {
-        /*2)Faça um programa que tenha uma função que preenchera um vetor cujo tamanho seja informado 
-            pelo usuário. O programa deverá solicitar o preenchimento de dois vetores. O programa deverá ter 
-            um procedimento (método do tipo void) que irá imprimir o produto dos valores dos dois vetores.*/
+        /*
+            3)Faça um programa que leia dois vetores de 10 posições. O primeiro vetor corresponde as notas da 
+            prova parcial de dez alunos. O segundo vetor as notas da prova oficial dos mesmos dez alunos. 
+            O programa deverá calcular a média aritmética ponderada, sendo peso 2 para parcial e peso 8 para 
+            oficial, e armazenar em um outro vetor, ou seja, um novo vetor irá receber as médias. Ao final o 
+            programa deverá mostrar as notas da prova parcial, da prova oficial e a média dos alunos.
+            Obs: A nota vai de 0 a 10. Não é permitido a entrada de outro valor.
+            */
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite o tamanho dos vetores:");
-            int tamanho = int.Parse(Console.ReadLine());
+            
 
-            Console.WriteLine("//////////////////////");
-            var vet1 = preVet1(tamanho);
-            var vet2 = preVet2(tamanho);
-            var mult = produto(vet1, vet2, tamanho);
 
-            Console.WriteLine("produto dos valores:");
-            imprimir(mult, vet1, vet2);
-        }
-
-        static int[] preVet1(int tamanho)
-        {
-            int[] vetNum = new int[tamanho];
-
-            for (int i = 0; i < tamanho; i++)
-            {
-                Console.WriteLine($"Digite o {i+1}° número do primeiro vetor:");
-                vetNum[i] = int.Parse(Console.ReadLine());
-            }
-            return vetNum;
-        }
-
-        static int[] preVet2(int tamanho)
-        {
-            int[] vetNum = new int[tamanho];
-
-            for (int i = 0; i < tamanho; i++)
-            {
-                Console.WriteLine($"Digite o {i+1}° número do segundo vetor:");
-                vetNum[i] = int.Parse(Console.ReadLine());
-            }
-            return vetNum;
-        }
-
-        static int[] produto(int[] vetNum1,int[] vetNum2, int tamanho)
-        {
-            int[] mult = new int[tamanho];
-            for (int i = 0; i < tamanho; i++)
-            {
-                mult[i] = vetNum1[i] * vetNum2[i];
-            }
-            return mult;
-        }
-
-        static void imprimir(int[] mult, int[] vetNum1, int[] vetNum2)
-        {
-            for (int i = 0; i < mult.Length; i++)
-            {
-                Console.WriteLine($"{vetNum1[i]} X {vetNum2[i]} = {mult[i]}");
-            }
         }
     }
 }
