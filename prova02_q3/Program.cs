@@ -15,56 +15,57 @@ namespace prova02_q3
             //não precisa de função
         static void Main(string[] args)
         {
-            var media = new float[10];
+            int tamanho = 10;//10
 
-            var notP1 = fVetor1(10);
-            var notP2 = fVetor2(10);
-            
-            imprimir(notP1, notP2);
-            
-            for (int i = 0; i < 10; i++)
-            {
-                media[i] = ((notP1[i] * 2) + (notP2[i] * 8)) / 10;
-                if (media[i] > 10)
-                {
-                    Console.WriteLine($"{i+1}° aluno, não tem uma media valida"); 
-                }
-                else
-                {
-                    Console.WriteLine($"A média do {i+1}° aluno é: {media[i]}"); 
-                }
-            }
+            Console.WriteLine("//////////PARCIAL////////////");
+            var vet1 = vetUm(tamanho);
+            Console.WriteLine("//////////OFICIAL////////////");
+            var vet2 = vetDois(tamanho);
+            Console.WriteLine("//////////MÉDIA////////////");
+            var vetM = vetMedia(tamanho, vet1, vet2);
+            imprimir(vetM, vet1, vet2);
         }
 
-        static float[] fVetor1(int vet1)
+        static float[] vetUm(int tamanho)
         {
-            float[] vetor1 = new float[vet1];
+            float[] vetNum = new float[tamanho];
 
-            for (int i = 0; i < vetor1.Length; i++)
+            for (int i = 0; i < tamanho; i++)
             {
-                Console.WriteLine($"Digite a nota da prova parcial do {i+1}° aluno: ");
-                vetor1[i] = float.Parse(Console.ReadLine());
+                Console.WriteLine($"Digite a nota parcial do {i+1}° aluno:");
+                vetNum[i] = float.Parse(Console.ReadLine());
             }
-            return vetor1;
+            return vetNum;
         }
 
-        static float[] fVetor2(int vet2)
+        static float[] vetDois(int tamanho)
         {
-            float[] vetor2 = new float[vet2];
+            float[] vetNum = new float[tamanho];
 
-            for (int i = 0; i < vetor2.Length; i++)
+            for (int i = 0; i < tamanho; i++)
             {
-                Console.WriteLine($"Digite a nota da prova oficial do {i+1}° aluno: ");
-                vetor2[i] = float.Parse(Console.ReadLine());
+                Console.WriteLine($"Digite a nota oficial do {i+1}° aluno:");
+                vetNum[i] = float.Parse(Console.ReadLine());
             }
-            return vetor2;
-        } 
+            return vetNum;
+        }
 
-        static void imprimir(float[] vetNotas1, float[] vetNotas2)
+        static float[] vetMedia(int tamanho, float[] vet1, float[] vet2)
         {
-            for (int i = 0; i < vetNotas1.Length; i++)
+            float[] vetNum = new float[tamanho];
+
+            for (int i = 0; i < tamanho; i++)
             {
-                Console.WriteLine($"{i+1}° aluno, nota da prova Parcial: {vetNotas1[i]}, prova Oficial: {vetNotas2[i]}");
+                vetNum[i] = ((vet1[i] * 2) + (vet2[i] * 8)) / 100;
+            }
+            return vetNum;
+        }
+
+        static void imprimir(float[] vetM, float[] vet1, float[] vet2)
+        {
+            for (int i = 0; i < vet1.Length; i++)
+            {
+                Console.WriteLine($"Notas do {i+1}° aluno: \nPARCIAL: {vet1[i]/10}\nOFICIAL: {vet2[i]/10}\nMÉDIA: {vetM[i].ToString("N1")}");
             }
         }
     }
