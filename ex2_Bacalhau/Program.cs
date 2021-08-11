@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ex_Bacalhau
+namespace ex2_Bacalhau
 {
     class Program
     {

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\ex_Bacalhau\\ex_Bacalhau.csproj",
-      "projectName": "ex_Bacalhau",
-      "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\ex_Bacalhau\\ex_Bacalhau.csproj",
+      "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\ex1_Bacalhau\\ex1_Bacalhau.csproj",
+      "projectName": "ex1_Bacalhau",
+      "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\ex1_Bacalhau\\ex1_Bacalhau.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\ex_Bacalhau\\obj\\",
+      "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\ex1_Bacalhau\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config"
