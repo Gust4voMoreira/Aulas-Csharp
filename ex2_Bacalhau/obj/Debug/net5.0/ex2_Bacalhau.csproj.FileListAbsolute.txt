@@ -1,0 +1,16 @@
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\bin\Debug\net5.0\ex2_Bacalhau.exe
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\bin\Debug\net5.0\ex2_Bacalhau.deps.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\bin\Debug\net5.0\ex2_Bacalhau.runtimeconfig.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\bin\Debug\net5.0\ex2_Bacalhau.runtimeconfig.dev.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\bin\Debug\net5.0\ex2_Bacalhau.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\bin\Debug\net5.0\ref\ex2_Bacalhau.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\bin\Debug\net5.0\ex2_Bacalhau.pdb
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ex2_Bacalhau.csprojAssemblyReference.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ex2_Bacalhau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ex2_Bacalhau.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ex2_Bacalhau.AssemblyInfo.cs
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ex2_Bacalhau.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ex2_Bacalhau.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ref\ex2_Bacalhau.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ex2_Bacalhau.pdb
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\ex2_Bacalhau\obj\Debug\net5.0\ex2_Bacalhau.genruntimeconfig.cache
