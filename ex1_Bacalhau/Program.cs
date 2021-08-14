@@ -17,7 +17,7 @@ namespace ex1_Bacalhau
             vão ser apresentadas na execução do programa, seguindo a lógica do exemplo
             mais abaixo. Para os valores com mais de seis dígitos, todos os dígitos devem
             ser apresentados.
-            */
+            
             int num;
             Console.Write("Digite um número: ");
             num = int.Parse(Console.ReadLine());
@@ -30,6 +30,7 @@ namespace ex1_Bacalhau
                     Console.WriteLine($"{i} {i*i+1} {(i*i)*i+1}");
                 }
             }
+            */
 
             /*
             2) Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
@@ -49,6 +50,34 @@ namespace ex1_Bacalhau
 
             Console.WriteLine($"Notas do aluno: \nA: {notaA/10}\nB: {notaB/10}\nC: {notaC/10}\nMÉDIA: {media.ToString("N1")}");
             */
+
+            /*
+            3) Leia 6 valores. Em seguida, mostre quantos destes valores digitados foram positivos. Na próxima linha, deve-se mostrar a média de todos os valores positivos digitados, com um dígito após o ponto decimal.
+            obs: A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes números será positivo.
+            obs: O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
+            */
+            //ERRO
+            
+            /*
+            4) Você recebeu o desafio de ler um valor e criar um programa que coloque o valor lido na primeira posição de um vetor N[10]. Em cada posição subsequente, coloque o dobro do valor da posição anterior. Por exemplo, se o valor lido for 1, os valores do vetor devem ser 1,2,4,8 e assim sucessivamente. Mostre o vetor em seguida.
+            obs: Para cada posição do vetor, escreva "N[i] = X", onde i é a posição do vetor e X é o valor armazenado na posição i. O primeiro número do vetor N (N[0]) irá receber o valor de V.
+
+            */
+            int num;
+            int[] vetInt = new int[10];
+            int mult = 1;
+
+
+            Console.WriteLine("Digite um número");
+            num = int.Parse(Console.ReadLine());
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                mult = mult * 2;
+                
+                Console.WriteLine($"N[{i}] = {mult}");
+            }
         }
     }
 }
