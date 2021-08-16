@@ -64,20 +64,24 @@ namespace ex1_Bacalhau
 
             */
             int num;
+            int i = 0; 
             int[] vetInt = new int[10];
-            int mult = 1;
 
 
             Console.WriteLine("Digite um número");
             num = int.Parse(Console.ReadLine());
 
 
-            for (int i = 0; i < 10; i++)
+            do
             {
-                mult = mult * 2;
-                
-                Console.WriteLine($"N[{i}] = {mult}");
-            }
+                Console.WriteLine($"N[{i}] = {num}"); 
+
+                num = num * 2;
+
+                i++;
+            } 
+            while (i < 10);
+
         }
     }
 }
