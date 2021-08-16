@@ -4,12 +4,7 @@ namespace ex1_Bacalhau
 {
     class Program
     {
-        /*
-        1) Desenvolva um programa capaz de ler um valor inteiro N. N * 2 linhas de saída
-        vão ser apresentadas na execução do programa, seguindo a lógica do exemplo
-        mais abaixo. Para os valores com mais de seis dígitos, todos os dígitos devem
-        ser apresentados.
-        */
+      
         static void Main(string[] args)
         {
             /*
@@ -55,22 +50,36 @@ namespace ex1_Bacalhau
             3) Leia 6 valores. Em seguida, mostre quantos destes valores digitados foram positivos. Na próxima linha, deve-se mostrar a média de todos os valores positivos digitados, com um dígito após o ponto decimal.
             obs: A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes números será positivo.
             obs: O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
+
+            //erro
             */
-            //ERRO
+
+            double num, cont = 0, soma = 0;
+            
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Digite um número: ");
+                num = double.Parse(Console.ReadLine());
+
+                if (num > 0)
+                {
+                    cont++;
+                    soma += num;
+                }
+            }
+
+            Console.WriteLine($"{cont} valores positivos");
+            Console.WriteLine($"{soma/cont}");
             
             /*
             4) Você recebeu o desafio de ler um valor e criar um programa que coloque o valor lido na primeira posição de um vetor N[10]. Em cada posição subsequente, coloque o dobro do valor da posição anterior. Por exemplo, se o valor lido for 1, os valores do vetor devem ser 1,2,4,8 e assim sucessivamente. Mostre o vetor em seguida.
             obs: Para cada posição do vetor, escreva "N[i] = X", onde i é a posição do vetor e X é o valor armazenado na posição i. O primeiro número do vetor N (N[0]) irá receber o valor de V.
 
-            */
             int num;
-            int i = 0; 
-            int[] vetInt = new int[10];
-
+            int i = 1; 
 
             Console.WriteLine("Digite um número");
             num = int.Parse(Console.ReadLine());
-
 
             do
             {
@@ -81,7 +90,7 @@ namespace ex1_Bacalhau
                 i++;
             } 
             while (i < 10);
-
+            */
         }
     }
 }
