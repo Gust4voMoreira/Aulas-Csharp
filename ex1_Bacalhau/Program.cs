@@ -51,7 +51,6 @@ namespace ex1_Bacalhau
             obs: A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes números será positivo.
             obs: O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
 
-            //erro
             */
 
             double num, cont = 0, soma = 0;
