@@ -28,7 +28,7 @@ namespace aulaPoo01
             
             for (int i = 0; i < qtd; i++)
             {
-                Console.WriteLine($"Media do {i+1}° aluno foi {vetMedia[i]/2}");
+                Console.WriteLine($"Média do {i+1}° aluno foi {vetMedia[i]/2}");
                 if (vetMedia[i]/2 < 6)
                 {
                     Console.WriteLine("Não Aprovado");
