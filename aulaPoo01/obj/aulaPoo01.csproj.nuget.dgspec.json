@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPoo01\\aulaPoo01.csproj": {}
+    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPOO01\\aulaPoo01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPoo01\\aulaPoo01.csproj": {
+    "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPOO01\\aulaPoo01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPoo01\\aulaPoo01.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPOO01\\aulaPoo01.csproj",
         "projectName": "aulaPoo01",
-        "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPoo01\\aulaPoo01.csproj",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPOO01\\aulaPoo01.csproj",
         "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPoo01\\obj\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\GitHub\\Aulas-Csharp\\aulaPOO01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config"
