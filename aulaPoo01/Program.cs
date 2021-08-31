@@ -5,6 +5,7 @@ namespace Desafio
 {
 	class Program 
 	{
+		//Data: 28/08/2021
 		static void Main(string[] args) 
 		{
 			Console.WriteLine("Bem-vindo, Walkiria!\n");
@@ -16,11 +17,11 @@ namespace Desafio
 
 			while (opcao.ToLower() == "s") 
 			{
-				Console.WriteLine("Digite nome do aluno: \n");
+				Console.WriteLine("Digite o nome do aluno:");
 				nome = Console.ReadLine();
-				Console.WriteLine("Digite Matricula do aluno: \n");
+				Console.WriteLine("\nDigite a Matricula do aluno:");
 				matricula = int.Parse(Console.ReadLine());
-				Console.WriteLine("Digite Notas do aluno: \n");
+				Console.WriteLine("\nDigite as Notas do aluno:\n");
 				double[] notas = new double[3];
 				double soma = 0;
 				double media = 0;
