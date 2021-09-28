@@ -4,6 +4,9 @@ namespace aulaPoo02
 {
     class Program
     {
+        //DESAFIO 03
+        /*Sr. João Possui uma loja de tintas , visto que os seus vendedores perdia muito tempo com o calculo da quantidade de tintas usado na pintura, decidiu contratar um Desenvolvedor para fazer um programa que calcule a litragem de tinta usado nos cômodos.*/
+        
         static void Main(string[] args)
         {
             double profundidade, larg, alt, porta, janela = 0;
@@ -42,6 +45,7 @@ namespace aulaPoo02
 
             Console.WriteLine("---------------RESULTADO---------------");
             Console.WriteLine($"Quantidade de tinta: {litragem} litros");
+            //faz melhor
         }
     }
 }
