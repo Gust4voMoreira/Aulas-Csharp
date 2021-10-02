@@ -5,7 +5,6 @@ C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\bin\Debug\net5.0\aulaPo
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\bin\Debug\net5.0\aulaPoo02.dll
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\bin\Debug\net5.0\ref\aulaPoo02.dll
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\bin\Debug\net5.0\aulaPoo02.pdb
-C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\aulaPoo02.csprojAssemblyReference.cache
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\aulaPoo02.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\aulaPoo02.AssemblyInfoInputs.cache
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\aulaPoo02.AssemblyInfo.cs
