@@ -14,3 +14,4 @@ C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\aulaPo
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\ref\aulaPoo02.dll
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\aulaPoo02.pdb
 C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\aulaPoo02.genruntimeconfig.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo02\obj\Debug\net5.0\aulaPoo02.csproj.AssemblyReference.cache
