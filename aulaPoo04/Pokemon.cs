@@ -20,7 +20,8 @@ namespace aulaPoo04
             get { return nome; }
             set {
                 string texto = value.ToUpper();
-                nome = texto; }
+                nome = texto; 
+                }
         }
 
         private string descricao; //armazena o valor da propiedade Descricao.
