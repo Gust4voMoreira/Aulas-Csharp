@@ -13,20 +13,26 @@ namespace aulaPoo04
             this.Descricao = "";
         }
 
-        private string nome;
+        public Pokemon(String nome, String descricao)
+        {
+            this.Nome = nome;
+            this.Descricao = descricao;
+        }
 
-        public string Nome
+        private String nome;
+
+        public String Nome
         {
             get { return nome; }
             set {
-                string texto = value.ToUpper();
+                String texto = value.ToUpper();
                 nome = texto; 
                 }
         }
 
-        private string descricao; //armazena o valor da propiedade Descricao.
+        private String descricao; //armazena o valor da propiedade Descricao.
 
-        public string Descricao //representa a caractristica Descricao do meu Pokemon.
+        public String Descricao //representa a caractristica Descricao do meu Pokemon.
         {
             get { return this.descricao; }
             set { this.descricao = value.ToUpper(); }
@@ -36,6 +42,19 @@ namespace aulaPoo04
         {
             Console.WriteLine("Nome do Pokémon: " + this.Nome);
             Console.WriteLine("Descrição do Pokémon: " + this.Descricao);
+        }
+
+        public void ExibirDadosPokemon(Boolean formatado)
+        {
+            if (formatado == true)
+            {
+                Console.WriteLine($"Pokémon {this.Nome}: {this.Descricao.ToLower()}");
+            }
+            else
+            {
+            Console.WriteLine("Nome do Pokémon: " + this.Nome);
+            Console.WriteLine("Descrição do Pokémon: " + this.Descricao);
+            }
         }
     }
 }
