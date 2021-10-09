@@ -18,8 +18,8 @@ namespace aulaPoo02
             this.Nome = nome;
             this.Idade = idade;
         }
-        private String nome;
 
+        private String nome;
         public String Nome
         {
             get { return nome; }
