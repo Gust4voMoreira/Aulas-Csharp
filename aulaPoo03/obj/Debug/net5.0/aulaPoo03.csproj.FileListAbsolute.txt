@@ -1,0 +1,16 @@
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\bin\Debug\net5.0\aulaPoo03.exe
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\bin\Debug\net5.0\aulaPoo03.deps.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\bin\Debug\net5.0\aulaPoo03.runtimeconfig.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\bin\Debug\net5.0\aulaPoo03.runtimeconfig.dev.json
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\bin\Debug\net5.0\aulaPoo03.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\bin\Debug\net5.0\ref\aulaPoo03.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\bin\Debug\net5.0\aulaPoo03.pdb
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\aulaPoo03.csproj.AssemblyReference.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\aulaPoo03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\aulaPoo03.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\aulaPoo03.AssemblyInfo.cs
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\aulaPoo03.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\aulaPoo03.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\ref\aulaPoo03.dll
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\aulaPoo03.pdb
+C:\Users\Gustavo\Documents\GitHub\Aulas-Csharp\aulaPoo03\obj\Debug\net5.0\aulaPoo03.genruntimeconfig.cache
