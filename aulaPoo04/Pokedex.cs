@@ -7,6 +7,11 @@ namespace aulaPoo04
 {
     public class Pokedex
     {
+        public Pokedex()
+        {
+            this.InicializaLista();
+        }
+        
         private List<Pokemon> pokemons;
         public List<Pokemon> Pokemons
         {
@@ -15,7 +20,18 @@ namespace aulaPoo04
 
         private void InicializaLista()
         {
+            this.pokemons = new List<Pokemon>();
 
+            Pokemon p = new Pokemon("Pichu", "Pokemon tipo eletrico");
+            this.pokemons.Add(p);
+            p = new Pokemon("Pikachu", "Pokemon tipo eletrico");
+            this.pokemons.Add(p);
+            p = new Pokemon("Mew", "Lendario psiquico");
+            this.pokemons.Add(p);
+            p = new Pokemon("Mewtwo", "Lendario psiquico");
+            this.pokemons.Add(p);
+            p = new Pokemon("Muk", "Pokemon tipo metal");
+            this.pokemons.Add(p);
         }
         
     }
