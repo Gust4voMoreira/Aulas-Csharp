@@ -34,5 +34,14 @@ namespace aulaPoo04
             this.pokemons.Add(p);
         }
         
+        public void ListarPokemons()
+        {
+            for(int i = 0; i < this.pokemons.Count; i++)
+            {
+                //this.Pokemons[i].ExibirDadosPokemon();
+                Pokemon p = this.Pokemons[i];
+                p.ExibirDadosPokemon();
+            }
+        } 
     }
 }
